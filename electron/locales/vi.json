@@ -1,0 +1,26 @@
+{
+  "logs": {
+    "init_failed": "Khởi tạo tệp nhật ký thất bại:",
+    "app_started": "Ứng dụng đã khởi động",
+    "frontend_not_found": "Thư mục dist của frontend không tồn tại:",
+    "frontend_started": "Máy chủ HTTP của frontend đã khởi động: http://127.0.0.1:{port}",
+    "frontend_path": "Đường dẫn tệp frontend: {path}",
+    "frontend_failed": "Khởi động máy chủ HTTP của frontend thất bại:",
+    "stop_frontend": "Dừng máy chủ HTTP của frontend...",
+    "start_backend_dev": "Chế độ phát triển: Vui lòng khởi động thủ công dịch vụ backend (python -m uvicorn app:app --reload)",
+    "backend_path": "Đường dẫn backend: {path}",
+    "backend_exists": "Tệp backend tồn tại: {exists}",
+    "backend_not_found": "Chương trình backend không tồn tại:",
+    "start_backend": "Khởi động dịch vụ backend: {path} Cổng: {port}",
+    "backend_failed": "Khởi động backend thất bại:",
+    "backend_exit": "Tiến trình backend đã thoát, mã: {code}",
+    "stop_backend": "Dừng dịch vụ backend...",
+    "backend_ready": "Dịch vụ backend đã sẵn sàng",
+    "waiting_backend": "Đang chờ backend khởi động... ({current}/{total})",
+    "backend_timeout": "Dịch vụ backend khởi động quá thời gian quy định",
+    "icon_not_found": "Tệp biểu tượng chính không tồn tại:"
+  },
+  "window": {
+    "title": "Thần công xử lý âm thanh"
+  }
+}

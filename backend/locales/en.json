@@ -1,0 +1,70 @@
+{
+  "api": {
+    "title": "Kunqiong AI Audio Converter API",
+    "description": "Audio processing backend service",
+    "running": "Kunqiong AI Audio Converter API service is running"
+  },
+  "tags": {
+    "convert": "Audio Conversion",
+    "fs": "File System",
+    "cut": "Audio Trimming",
+    "video_extract": "Extract Audio from Video",
+    "merge": "Audio Merging",
+    "transcribe": "Audio to Text",
+    "volume": "Volume Adjustment",
+    "record": "Audio Recording",
+    "compress": "Audio Compression",
+    "speed": "Audio Speed Change",
+    "fade": "Fade In/Out",
+    "reverse": "Audio Reverse",
+    "denoise": "Audio Noise Reduction",
+    "echo": "Echo",
+    "silence": "Remove Silence",
+    "bgm": "Add BGM",
+    "equalizer": "Equalizer",
+    "cover": "Add Cover",
+    "video_replace": "Replace Video Audio",
+    "noise": "Noise Generation",
+    "vocal": "Vocal and Accompaniment Extraction",
+    "bgm_library": "BG Music Library",
+    "video_remove_vocal": "Remove Vocal from Video",
+    "vocal_enhance": "Vocal Enhancement",
+    "tts": "Text to Speech",
+    "effect": "Add Sound Effects",
+    "translate": "Translation",
+    "voice": "Voice Changing",
+    "analysis": "AI Audio Analysis",
+    "tasks": "Task Management"
+  },
+  "errors": {
+    "file_not_found": "File not found",
+    "invalid_format": "Invalid format",
+    "processing_failed": "Processing failed",
+    "unsupported_format": "Unsupported output format: {format}",
+    "convert_failed": "Conversion failed: {error}",
+    "cut_failed": "Trimming failed: {error}",
+    "extract_failed": "Extraction failed: {error}",
+    "empty_filename": "Filename cannot be empty",
+    "disallowed_file_type": "Disallowed file type: {ext}",
+    "file_size_exceeded": "File size exceeds limit ({size}MB)",
+    "empty_file": "File content is empty",
+    "unsupported_file_format": "Unsupported {type} format: {mime}",
+    "unrecognized_file_format": "Unrecognized {type} format",
+    "field_required": "{field} cannot be empty",
+    "field_too_long": "{field} length cannot exceed {max} characters",
+    "unsafe_content": "{field} contains unsafe content",
+    "unsafe_path": "Unsafe path"
+  },
+  "types": {
+    "audio": "Audio",
+    "image": "Image",
+    "document": "Document",
+    "text": "Text"
+  },
+  "messages": {
+    "convert_success": "Conversion successful",
+    "cut_success": "Trimming successful",
+    "extract_success": "Extraction successful",
+    "fallback_save_msg": "Due to directory permission restrictions, the file has been saved to the temporary directory"
+  }
+}

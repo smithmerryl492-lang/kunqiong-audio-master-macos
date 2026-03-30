@@ -1,0 +1,384 @@
+{
+  "project_title": "开发者工具集平台",
+  "manual_subtitle": "（全功能使用说明书）",
+  "manual_title": "开发者工具集全功能使用说明书",
+  "base_url": "http://127.0.0.1:3200",
+  "toc": [
+    {
+      "title": "一、引言",
+      "page": 3,
+      "sub": [
+        {
+          "title": "（一）编写目的",
+          "page": 3
+        },
+        {
+          "title": "（二）运行环境",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "title": "二、Base64 功能说明",
+      "page": 4,
+      "sub": [
+        {
+          "title": "（一）文本/图片/文件/Hex 转换",
+          "page": 4
+        }
+      ]
+    },
+    {
+      "title": "三、JSON 功能说明",
+      "page": 8,
+      "sub": [
+        {
+          "title": "（一）编辑器/格式化/校验/压缩",
+          "page": 8
+        },
+        {
+          "title": "（二）Diff/格式转换/TS 类型生成",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "title": "四、Markdown 功能说明",
+      "page": 15,
+      "sub": [
+        {
+          "title": "（一）编辑器/预览/HTML 互转",
+          "page": 15
+        },
+        {
+          "title": "（二）标题提取/Diff 对比",
+          "page": 18
+        }
+      ]
+    },
+    {
+      "title": "五、SVG 功能说明",
+      "page": 20,
+      "sub": [
+        {
+          "title": "（一）编辑器/优化/导出/模板",
+          "page": 20
+        }
+      ]
+    },
+    {
+      "title": "六、常用工具功能说明",
+      "page": 24,
+      "sub": [
+        {
+          "title": "（一）URL/颜色/时间戳/JWT",
+          "page": 24
+        }
+      ]
+    }
+  ],
+  "intro": {
+    "title": "一、引言",
+    "purpose": "本文档用于指导用户完整使用开发者工具集全部功能页面，覆盖 Base64、JSON、Markdown、SVG 与常用工具五大分类，共 24 个功能页。",
+    "env_title": "二、运行环境",
+    "env_text": "推荐环境：Windows 10/11，内存 8GB 及以上，Chrome / Edge 最新版本。首次使用建议在稳定网络下启动，确保语言包与素材加载完整。",
+    "quick_title": "三、快速使用流程",
+    "quick_steps": [
+      "从左侧导航选择分类与功能页面。",
+      "在输入区填写或粘贴内容，按按钮执行转换/校验/导出。",
+      "在结果区查看输出，必要时复制、下载或清空后重试。"
+    ],
+    "overview_caption": "首页总览（用于识别整体布局）",
+    "overview_screenshot": "home-overview.png"
+  },
+  "items": [
+    {
+      "category": "Base64",
+      "title": "文本编解码",
+      "url": "/base64?tab=text",
+      "screenshot": "base64-text.png",
+      "description": "对文本进行 Base64 编码或解码。",
+      "steps": [
+        "在左侧输入文本。",
+        "选择“编码”或“解码”模式。",
+        "在右侧查看结果并复制。"
+      ]
+    },
+    {
+      "category": "Base64",
+      "title": "图片转换",
+      "url": "/base64?tab=image",
+      "screenshot": "base64-image.png",
+      "description": "将图片与 Base64 字符串互转。",
+      "steps": [
+        "上传图片或粘贴 Base64 字符串。",
+        "按需要设置输出选项。",
+        "查看预览并复制/导出结果。"
+      ]
+    },
+    {
+      "category": "Base64",
+      "title": "文件转换",
+      "url": "/base64?tab=file",
+      "screenshot": "base64-file.png",
+      "description": "将文件内容转为 Base64，或反向恢复文件。",
+      "steps": [
+        "上传待转换文件。",
+        "执行编码或解码操作。",
+        "下载生成文件。"
+      ]
+    },
+    {
+      "category": "Base64",
+      "title": "Hex 转换",
+      "url": "/base64?tab=hex",
+      "screenshot": "base64-hex.png",
+      "description": "处理 Hex 与文本/Base64 的转换场景。",
+      "steps": [
+        "输入 Hex 或文本数据。",
+        "选择目标格式并执行转换。",
+        "在结果区核对内容。"
+      ]
+    },
+    {
+      "category": "JSON",
+      "title": "JSON 编辑器",
+      "url": "/json?tab=editor",
+      "screenshot": "json-editor.png",
+      "description": "在编辑区直接处理 JSON 文本。",
+      "steps": [
+        "输入或打开 JSON 文件。",
+        "编辑内容并进行保存/另存为。",
+        "必要时切换到其它标签继续处理。"
+      ]
+    },
+    {
+      "category": "JSON",
+      "title": "格式化",
+      "url": "/json?tab=format",
+      "screenshot": "json-format.png",
+      "description": "将 JSON 美化为规范缩进格式。",
+      "steps": [
+        "粘贴 JSON 到输入区。",
+        "设置缩进参数后点击“格式化”。",
+        "复制或下载格式化结果。"
+      ]
+    },
+    {
+      "category": "JSON",
+      "title": "校验",
+      "url": "/json?tab=validate",
+      "screenshot": "json-validate.png",
+      "description": "检查 JSON 语法合法性。",
+      "steps": [
+        "输入 JSON 数据。",
+        "执行校验并查看错误提示。",
+        "修复后再次校验。"
+      ]
+    },
+    {
+      "category": "JSON",
+      "title": "压缩",
+      "url": "/json?tab=minify",
+      "screenshot": "json-minify.png",
+      "description": "压缩 JSON 以减小体积。",
+      "steps": [
+        "输入需要压缩的 JSON。",
+        "点击压缩。",
+        "复制压缩结果用于传输或存储。"
+      ]
+    },
+    {
+      "category": "JSON",
+      "title": "Diff 对比",
+      "url": "/json?tab=diff",
+      "screenshot": "json-diff.png",
+      "description": "对比两段 JSON 差异。",
+      "steps": [
+        "左侧/右侧分别输入两个 JSON。",
+        "系统自动或手动执行对比。",
+        "查看差异高亮结果。"
+      ]
+    },
+    {
+      "category": "JSON",
+      "title": "格式转换",
+      "url": "/json?tab=convert",
+      "screenshot": "json-convert.png",
+      "description": "在 JSON 与其他文本格式之间转换。",
+      "steps": [
+        "选择源格式和目标格式。",
+        "输入源数据并执行转换。",
+        "在结果区复制输出。"
+      ]
+    },
+    {
+      "category": "JSON",
+      "title": "TS 类型生成",
+      "url": "/json?tab=totypes",
+      "screenshot": "json-totypes.png",
+      "description": "根据 JSON 自动生成 TypeScript 类型。",
+      "steps": [
+        "输入样例 JSON。",
+        "点击生成类型定义。",
+        "复制接口/类型代码到项目中。"
+      ]
+    },
+    {
+      "category": "Markdown",
+      "title": "编辑器",
+      "url": "/markdown?tab=editor",
+      "screenshot": "markdown-editor.png",
+      "description": "编写 Markdown 并实时预览。",
+      "steps": [
+        "在编辑区输入 Markdown。",
+        "观察右侧预览效果。",
+        "按需保存或导出。"
+      ]
+    },
+    {
+      "category": "Markdown",
+      "title": "全屏预览",
+      "url": "/markdown?tab=preview",
+      "screenshot": "markdown-preview.png",
+      "description": "以全屏视图专注查看渲染结果。",
+      "steps": [
+        "切换到“全屏预览”标签。",
+        "查看排版与样式。",
+        "可导出 PDF/打印。"
+      ]
+    },
+    {
+      "category": "Markdown",
+      "title": "HTML 互转",
+      "url": "/markdown?tab=toHtml",
+      "screenshot": "markdown-tohtml.png",
+      "description": "在 Markdown 与 HTML 间互转。",
+      "steps": [
+        "选择转换方向。",
+        "输入原始内容。",
+        "点击转换并复制结果。"
+      ]
+    },
+    {
+      "category": "Markdown",
+      "title": "标题提取",
+      "url": "/markdown?tab=headings",
+      "screenshot": "markdown-headings.png",
+      "description": "提取文档标题形成大纲。",
+      "steps": [
+        "输入 Markdown 内容。",
+        "打开标题提取标签。",
+        "复制目录/大纲结果。"
+      ]
+    },
+    {
+      "category": "Markdown",
+      "title": "Diff 对比",
+      "url": "/markdown?tab=diff",
+      "screenshot": "markdown-diff.png",
+      "description": "比较两版 Markdown 内容差异。",
+      "steps": [
+        "输入旧版本与新版本文本。",
+        "执行对比。",
+        "根据差异结果修改文档。"
+      ]
+    },
+    {
+      "category": "SVG",
+      "title": "SVG 编辑器",
+      "url": "/svg?tab=editor",
+      "screenshot": "svg-editor.png",
+      "description": "编辑与预览 SVG 内容。",
+      "steps": [
+        "导入或粘贴 SVG。",
+        "在编辑区修改代码/图形。",
+        "在画布区预览最终效果。"
+      ]
+    },
+    {
+      "category": "SVG",
+      "title": "性能优化",
+      "url": "/svg?tab=optimize",
+      "screenshot": "svg-optimize.png",
+      "description": "优化 SVG 体积与结构。",
+      "steps": [
+        "导入 SVG。",
+        "点击“立即优化”。",
+        "复制或导出优化后代码。"
+      ]
+    },
+    {
+      "category": "SVG",
+      "title": "图片导出",
+      "url": "/svg?tab=convert",
+      "screenshot": "svg-convert.png",
+      "description": "将 SVG 导出为位图格式。",
+      "steps": [
+        "导入 SVG 文件。",
+        "设置导出格式和尺寸。",
+        "执行导出并下载图片。"
+      ]
+    },
+    {
+      "category": "SVG",
+      "title": "设计模板",
+      "url": "/svg?tab=templates",
+      "screenshot": "svg-templates.png",
+      "description": "使用内置模板快速生成图形。",
+      "steps": [
+        "选择模板参数。",
+        "生成后进入编辑器细调。",
+        "导出可用素材。"
+      ]
+    },
+    {
+      "category": "常用工具",
+      "title": "URL 编解码",
+      "url": "/tools?tab=url",
+      "screenshot": "tools-url.png",
+      "description": "处理 URL 编码与解码。",
+      "steps": [
+        "输入 URL 文本。",
+        "选择编码或解码。",
+        "复制结果并用于接口调试。"
+      ]
+    },
+    {
+      "category": "常用工具",
+      "title": "颜色转换",
+      "url": "/tools?tab=color",
+      "screenshot": "tools-color.png",
+      "description": "在 HEX/RGB/HSL 等格式间转换。",
+      "steps": [
+        "输入任意颜色值。",
+        "自动转换为多种格式。",
+        "复制目标格式颜色值。"
+      ]
+    },
+    {
+      "category": "常用工具",
+      "title": "时间戳",
+      "url": "/tools?tab=timestamp",
+      "screenshot": "tools-timestamp.png",
+      "description": "时间戳与日期时间互转。",
+      "steps": [
+        "输入时间戳或日期。",
+        "执行转换。",
+        "复制结果用于日志或接口。"
+      ]
+    },
+    {
+      "category": "常用工具",
+      "title": "JWT 解码",
+      "url": "/tools?tab=jwt",
+      "screenshot": "tools-jwt.png",
+      "description": "解析 JWT 结构并查看载荷。",
+      "steps": [
+        "粘贴 JWT Token。",
+        "查看 Header/Payload 解析结果。",
+        "核对字段后进行调试。"
+      ]
+    }
+  ]
+}

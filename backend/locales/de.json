@@ -1,0 +1,70 @@
+{
+  "api": {
+    "title": "Kunqiong AI Audio Converter API",
+    "description": "Audioverarbeitungsservice",
+    "running": "Kunqiong AI Audio Converter API-Dienst läuft"
+  },
+  "tags": {
+    "convert": "Audiokonvertierung",
+    "fs": "Dateisystem",
+    "cut": "Audio schneiden",
+    "video_extract": "Audio aus Video extrahieren",
+    "merge": "Audios zusammenfügen",
+    "transcribe": "Audio in Text umwandeln",
+    "volume": "Lautstärke anpassen",
+    "record": "Audio aufnehmen",
+    "compress": "Audio komprimieren",
+    "speed": "Audio-Geschwindigkeit ändern",
+    "fade": "Ein- und Ausblenden",
+    "reverse": "Audio umkehren",
+    "denoise": "Audio-Rauschen entfernen",
+    "echo": "Echo hinzufügen",
+    "silence": "Stille entfernen",
+    "bgm": "BGM hinzufügen",
+    "equalizer": "Equalizer",
+    "cover": "Cover hinzufügen",
+    "video_replace": "Audio in Video ersetzen",
+    "noise": "Geräuschgenerierung",
+    "vocal": "Vokal und Begleitung extrahieren",
+    "bgm_library": "BGM-Musikbibliothek",
+    "video_remove_vocal": "Vokal aus Video entfernen",
+    "vocal_enhance": "Vokal verbessern",
+    "tts": "Text zu Sprache umwandeln",
+    "effect": "Soundeffekte hinzufügen",
+    "translate": "Übersetzen",
+    "voice": "Stimme verändern",
+    "analysis": "AI-Audioanalyse",
+    "tasks": "Aufgabenverwaltung"
+  },
+  "errors": {
+    "file_not_found": "Datei nicht gefunden",
+    "invalid_format": "Ungültiges Format",
+    "processing_failed": "Verarbeitung fehlgeschlagen",
+    "unsupported_format": "Nicht unterstütztes Ausgabeformat: {format}",
+    "convert_failed": "Konvertierung fehlgeschlagen: {error}",
+    "cut_failed": "Schnitt fehlgeschlagen: {error}",
+    "extract_failed": "Extraktion fehlgeschlagen: {error}",
+    "empty_filename": "Dateiname darf nicht leer sein",
+    "disallowed_file_type": "Nicht erlaubter Dateityp: {ext}",
+    "file_size_exceeded": "Dateigröße überschreitet das Limit ({size}MB)",
+    "empty_file": "Datei ist leer",
+    "unsupported_file_format": "Nicht unterstütztes {type}-Format: {mime}",
+    "unrecognized_file_format": "Nicht erkennbares {type}-Format",
+    "field_required": "{field} darf nicht leer sein",
+    "field_too_long": "{field} darf nicht länger als {max} Zeichen sein",
+    "unsafe_content": "{field} enthält unsichere Inhalte",
+    "unsafe_path": "Unsicherer Pfad"
+  },
+  "types": {
+    "audio": "Audio",
+    "image": "Bild",
+    "document": "Dokument",
+    "text": "Text"
+  },
+  "messages": {
+    "convert_success": "Konvertierung erfolgreich",
+    "cut_success": "Schnitt erfolgreich",
+    "extract_success": "Extraktion erfolgreich",
+    "fallback_save_msg": "Aufgrund von Verzeichnisberechtigungsbeschränkungen wurde die Datei in den temporären Ordner gespeichert"
+  }
+}

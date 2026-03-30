@@ -1,0 +1,26 @@
+{
+  "logs": {
+    "init_failed": "Nabigong inisyalisa ang file ng log:",
+    "app_started": "Inilunsad ang aplikasyon",
+    "frontend_not_found": "Ang direktoryo ng dist ng frontend ay wala:",
+    "frontend_started": "Nag-umpisa na ang HTTP server ng frontend: http://127.0.0.1:{port}",
+    "frontend_path": "Daan ng file ng frontend: {path}",
+    "frontend_failed": "Nabigong inilunsad ang HTTP server ng frontend:",
+    "stop_frontend": "Pinapatay ang HTTP server ng frontend...",
+    "start_backend_dev": "Mode ng pag-unlad: Mangyaring manu-manong ilunsad ang serbisyo ng backend (python -m uvicorn app:app --reload)",
+    "backend_path": "Daan ng backend: {path}",
+    "backend_exists": "Ang file ng backend ay naroroon: {exists}",
+    "backend_not_found": "Ang programa ng backend ay wala:",
+    "start_backend": "Inilunsad ang serbisyo ng backend: {path} Port: {port}",
+    "backend_failed": "Nabigong inilunsad ang backend:",
+    "backend_exit": "Nag-exit ang proseso ng backend, code: {code}",
+    "stop_backend": "Pinapatay ang serbisyo ng backend...",
+    "backend_ready": "Ang serbisyo ng backend ay handa na",
+    "waiting_backend": "Naghihintay para sa paglulunsad ng backend... ({current}/{total})",
+    "backend_timeout": "Nakalipas ang oras para sa paglulunsad ng serbisyo ng backend",
+    "icon_not_found": "Ang pangunahing icon file ay wala:"
+  },
+  "window": {
+    "title": "Master ng Pagproseso ng Audio"
+  }
+}

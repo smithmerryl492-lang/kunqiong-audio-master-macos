@@ -1,0 +1,26 @@
+{
+  "logs": {
+    "init_failed": "初始化日誌檔案失敗:",
+    "app_started": "應用程式啟動",
+    "frontend_not_found": "前端dist目錄不存在:",
+    "frontend_started": "前端HTTP伺服器已啟動: http://127.0.0.1:{port}",
+    "frontend_path": "前端檔案路徑: {path}",
+    "frontend_failed": "前端HTTP伺服器啟動失敗:",
+    "stop_frontend": "停止前端HTTP伺服器...",
+    "start_backend_dev": "開發模式：請手動啟動後端服務 (python -m uvicorn app:app --reload)",
+    "backend_path": "後端路徑: {path}",
+    "backend_exists": "後端檔案存在: {exists}",
+    "backend_not_found": "後端程式不存在:",
+    "start_backend": "啟動後端服務: {path} 端口: {port}",
+    "backend_failed": "啟動後端失敗:",
+    "backend_exit": "後端進程退出，代碼: {code}",
+    "stop_backend": "停止後端服務...",
+    "backend_ready": "後端服務已就緒",
+    "waiting_backend": "等待後端啟動... ({current}/{total})",
+    "backend_timeout": "後端服務啟動超時",
+    "icon_not_found": "主圖標檔案不存在:"
+  },
+  "window": {
+    "title": "音訊處理大師"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "logs": {
+    "init_failed": "Ошибка инициализации файла журнала:",
+    "app_started": "Приложение запущено",
+    "frontend_not_found": "Директория dist фронтенда не существует:",
+    "frontend_started": "HTTP-сервер фронтенда запущен: http://127.0.0.1:{port}",
+    "frontend_path": "Путь к файлам фронтенда: {path}",
+    "frontend_failed": "Не удалось запустить HTTP-сервер фронтенда:",
+    "stop_frontend": "Остановка HTTP-сервера фронтенда...",
+    "start_backend_dev": "Режим разработки: пожалуйста, запустите сервис бэкенда вручную (python -m uvicorn app:app --reload)",
+    "backend_path": "Путь к бэкенду: {path}",
+    "backend_exists": "Файл бэкенда существует: {exists}",
+    "backend_not_found": "Программа бэкенда не найдена:",
+    "start_backend": "Запуск сервиса бэкенда: {path}, порт: {port}",
+    "backend_failed": "Не удалось запустить бэкенд:",
+    "backend_exit": "Процесс бэкенда завершился с кодом: {code}",
+    "stop_backend": "Остановка сервиса бэкенда...",
+    "backend_ready": "Сервис бэкенда готов к работе",
+    "waiting_backend": "Ожидание запуска бэкенда... ({current}/{total})",
+    "backend_timeout": "Превышено время ожидания запуска сервиса бэкенда",
+    "icon_not_found": "Файл главного значка не найден:"
+  },
+  "window": {
+    "title": "Мастер обработки аудио"
+  }
+}

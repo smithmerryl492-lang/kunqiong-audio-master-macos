@@ -1,0 +1,70 @@
+{
+  "api": {
+    "title": "एपीआई ऑडियो कन्वर्टर आर्कस",
+    "description": "ऑडियो प्रोसेसिंग बैकएंड सेवा",
+    "running": "एपीआई ऑडियो कन्वर्टर आर्कस सेवा चल रही है"
+  },
+  "tags": {
+    "convert": "ऑडियो कन्वर्ट",
+    "fs": "फाइल सिस्टम",
+    "cut": "ऑडियो कट",
+    "video_extract": "वीडियो से ऑडियो निकालें",
+    "merge": "ऑडियो मर्ज करें",
+    "transcribe": "ऑडियो से टेक्स्ट में बदलें",
+    "volume": "वॉल्यूम समायोजित करें",
+    "record": "ऑडियो रिकॉर्ड करें",
+    "compress": "ऑडियो संपीड़ित करें",
+    "speed": "ऑडियो गति बदलें",
+    "fade": "फेड इन/आउट",
+    "reverse": "ऑडियो उलटें",
+    "denoise": "ऑडियो शोर घटाएं",
+    "echo": "इको",
+    "silence": "शांति हटाएं",
+    "bgm": "बीजीएम जोड़ें",
+    "equalizer": "इक्वलाइजर",
+    "cover": "कवर जोड़ें",
+    "video_replace": "वीडियो में ऑडियो बदलें",
+    "noise": "शोर उत्पन्न करें",
+    "vocal": "मानव ध्वनि अनुबंध निकालें",
+    "bgm_library": "बीजीएम संगीत लाइब्रेरी",
+    "video_remove_vocal": "वीडियो से मानव ध्वनि हटाएं",
+    "vocal_enhance": "मानव ध्वनि सुधारें",
+    "tts": "टेक्स्ट से वॉइस में बदलें",
+    "effect": "ऑडियो इफेक्ट जोड़ें",
+    "translate": "अनुवाद",
+    "voice": "वॉइस बदलें",
+    "analysis": "AI ऑडियो विश्लेषण",
+    "tasks": "कार्य प्रबंधन"
+  },
+  "errors": {
+    "file_not_found": "फाइल नहीं मिली",
+    "invalid_format": "अमान्य फॉर्मेट",
+    "processing_failed": "प्रसंस्करण विफल रहा",
+    "unsupported_format": "असमर्थित आउटपुट फॉर्मेट: {format}",
+    "convert_failed": "कन्वर्ट विफल रहा: {error}",
+    "cut_failed": "कट विफल रहा: {error}",
+    "extract_failed": "निकालना विफल रहा: {error}",
+    "empty_filename": "फाइल का नाम खाली नहीं हो सकता",
+    "disallowed_file_type": "अनुमत फाइल प्रकार नहीं: {ext}",
+    "file_size_exceeded": "फाइल आकार सीमा से अधिक ({size}MB)",
+    "empty_file": "फाइल का सामग्री खाली है",
+    "unsupported_file_format": "असमर्थित {type} फॉर्मेट: {mime}",
+    "unrecognized_file_format": "अपरिचित {type} फॉर्मेट",
+    "field_required": "{field} खाली नहीं हो सकता",
+    "field_too_long": "{field} की लंबाई {max} अक्षर से अधिक नहीं हो सकती",
+    "unsafe_content": "{field} में असुरक्षित सामग्री है",
+    "unsafe_path": "असुरक्षित पथ"
+  },
+  "types": {
+    "audio": "ऑडियो",
+    "image": "चित्र",
+    "document": "दस्तावेज",
+    "text": "टेक्स्ट"
+  },
+  "messages": {
+    "convert_success": "कन्वर्ट सफल रहा",
+    "cut_success": "कट सफल रहा",
+    "extract_success": "निकालना सफल रहा",
+    "fallback_save_msg": "निर्देशिका अनुमति सीमा के कारण, फाइल अस्थायी निर्देशिका में सहेज दी गई है"
+  }
+}

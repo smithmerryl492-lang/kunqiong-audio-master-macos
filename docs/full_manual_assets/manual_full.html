@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>音频处理大师用户使用说明书</title>
+  <style>
+    html, body { margin: 0; padding: 0; background: #fff; color: #222; font-family: SimSun, "Songti SC", "宋体", serif; }
+    .page { width: 595.3pt; height: 841.9pt; margin: 0 auto; position: relative; page-break-after: always; overflow: hidden; background: #fff; }
+    .page:last-child { page-break-after: auto; }
+    .inner { position: absolute; left: 90pt; right: 90pt; top: 74pt; }
+    .cover-title { position: absolute; left: 0; right: 0; top: 322pt; text-align: center; font-size: 38px; line-height: 1.55; font-weight: 400; }
+    .toc-title { text-align: center; font-size: 30px; line-height: 1.3; margin: 0 0 14pt; font-weight: 400; }
+    .toc-list { margin-top: 8pt; }
+    .toc-item { display: flex; align-items: flex-end; font-size: 24px; line-height: 1.8; margin: 0; }
+    .toc-item.sub { padding-left: 28pt; font-size: 21px; line-height: 1.75; }
+    .toc-item .name { white-space: nowrap; margin-right: 8pt; }
+    .toc-item .leader { flex: 1; border-bottom: 3px dotted #111; margin: 0 8pt 7pt 0; min-width: 20pt; }
+    .toc-item .page-num { width: 18pt; text-align: right; white-space: nowrap; }
+    h2.section-title { margin: 0 0 10pt; font-size: 30px; line-height: 1.35; font-weight: 600; }
+    h3.func-title { margin: 0 0 10pt; font-size: 24px; line-height: 1.35; font-weight: 600; }
+    p.lead { margin: 0 0 10pt; font-size: 18px; line-height: 1.9; }
+    p.desc { margin: 0 0 8pt; font-size: 18px; line-height: 1.8; }
+    ol.steps { margin: 0 0 10pt 22pt; padding: 0; font-size: 17px; line-height: 1.75; }
+    .shot { width: 415pt; max-height: 470pt; object-fit: contain; border: none; display: block; margin-top: 8pt; }
+    .page-no { position: absolute; bottom: 28pt; left: 0; right: 0; text-align: center; font-size: 14px; color: #444; }
+    .split { height: 1px; background: #444; margin: 14pt 0; opacity: 0.35; }
+  </style>
+</head>
+<body>
+  <section class="page">
+    <div class="cover-title">
+      <div>音频处理大师</div>
+      <div>（用户使用说明书）</div>
+    </div>
+  </section>
+
+  <section class="page">
+    <div class="inner">
+      <h2 class="toc-title">目录</h2>
+      <div class="toc-list">
+        <p class="toc-item"><span class="name">一、引言</span><span class="leader"></span><span class="page-num">3</span></p>
+        <p class="toc-item sub"><span class="name">（一）编写目的</span><span class="leader"></span><span class="page-num">3</span></p>
+        <p class="toc-item sub"><span class="name">（二）运行环境</span><span class="leader"></span><span class="page-num">3</span></p>
+        <p class="toc-item"><span class="name">2、基础处理 功能说明</span><span class="leader"></span><span class="page-num">4</span></p>
+        <p class="toc-item"><span class="name">3、AI处理 功能说明</span><span class="leader"></span><span class="page-num">7</span></p>
+        <p class="toc-item"><span class="name">4、增强效果 功能说明</span><span class="leader"></span><span class="page-num">8</span></p>
+        <p class="toc-item"><span class="name">5、混音 功能说明</span><span class="leader"></span><span class="page-num">12</span></p>
+        <p class="toc-item"><span class="name">6、视频相关 功能说明</span><span class="leader"></span><span class="page-num">13</span></p>
+      </div>
+    </div>
+    <div class="page-no">第 2 页</div>
+  </section>
+
+  <section class="page">
+    <div class="inner">
+      <h2 class="section-title">一、引言</h2>
+      <p class="lead">本文档用于指导用户完整使用音频处理大师的各项功能，包括音频转换、剪切合并、AI降噪与人声伴奏分离、淡入淡出、均衡器，以及视频相关的音频提取与替换等。</p>
+
+      <h2 class="section-title" style="font-size: 26px;">二、运行环境</h2>
+      <p class="lead">推荐环境：Windows 10/11，内存 8GB 及以上。无需联网即可使用便携版；如需开发模式预览，请安装 Node.js 16+。</p>
+
+      <h2 class="section-title" style="font-size: 26px;">三、快速使用流程</h2>
+      <ol class="steps">
+        <li>启动应用后，从左侧功能菜单选择需要的处理模块。</li><li>将待处理的音/视频文件拖拽到中心区域，或点击按钮添加文件。</li><li>设置输出格式或参数，点击开始处理，等待完成后在结果区查看并打开生成文件。</li>
+      </ol>
+
+      <div class="split"></div>
+      <p class="desc">首页总览（用于识别整体布局与功能导航）</p>
+      <img class="shot" src="./screenshots/home-overview.png" alt="overview" />
+    </div>
+    <div class="page-no">第 3 页</div>
+  </section>
+
+
+  <section class="page">
+    <div class="inner">
+      <h2 class="section-title">四、操作说明</h2>
+      <h3 class="func-title">（1）【基础处理】音频转换</h3>
+      <p class="desc">将音频转换为 MP3/WAV/FLAC 等格式，支持比特率设置。</p>
+      <ol class="steps">
+        <li>添加音频文件。</li><li>选择输出格式与质量参数。</li><li>开始处理并在输出列表中查看生成路径。</li>
+      </ol>
+      <img class="shot" src="./screenshots/convert.png" alt="基础处理-音频转换" />
+    </div>
+    <div class="page-no">第 4 页</div>
+  </section>
+
+  <section class="page">
+    <div class="inner">
+      
+      <h3 class="func-title">（2）【基础处理】音频剪切</h3>
+      <p class="desc">按起止时间裁剪音频片段，支持批量剪切。</p>
+      <ol class="steps">
+        <li>添加音频文件。</li><li>设置开始与结束时间或选择片段。</li><li>执行剪切并保存结果。</li>
+      </ol>
+      <img class="shot" src="./screenshots/cut.png" alt="基础处理-音频剪切" />
+    </div>
+    <div class="page-no">第 5 页</div>
+  </section>
+
+  <section class="page">
+    <div class="inner">
+      
+      <h3 class="func-title">（3）【基础处理】音频合并</h3>
+      <p class="desc">将多段音频按顺序拼接为一段，支持重命名输出。</p>
+      <ol class="steps">
+        <li>添加多段音频文件。</li><li>调整顺序并设置输出文件名。</li><li>开始合并并查看结果。</li>
+      </ol>
+      <img class="shot" src="./screenshots/merge.png" alt="基础处理-音频合并" />
+    </div>
+    <div class="page-no">第 6 页</div>
+  </section>
+
+  <section class="page">
+    <div class="inner">
+      
+      <h3 class="func-title">（4）【AI处理】人声-伴奏提取</h3>
+      <p class="desc">使用 AI 模型将音轨分离为人声与伴奏，支持批量。</p>
+      <ol class="steps">
+        <li>添加音频文件。</li><li>选择提取类型（人声/伴奏/全部）。</li><li>开始处理并在结果区查看输出。</li>
+      </ol>
+      <img class="shot" src="./screenshots/vocal-separate.png" alt="AI处理-人声-伴奏提取" />
+    </div>
+    <div class="page-no">第 7 页</div>
+  </section>
+
+  <section class="page">
+    <div class="inner">
+      
+      <h3 class="func-title">（5）【增强效果】音频降噪</h3>
+      <p class="desc">降低背景噪声，提高语音清晰度，支持多档强度。</p>
+      <ol class="steps">
+        <li>添加音频文件。</li><li>选择降噪级别。</li><li>开始处理并保存输出文件。</li>
+      </ol>
+      <img class="shot" src="./screenshots/denoise.png" alt="增强效果-音频降噪" />
+    </div>
+    <div class="page-no">第 8 页</div>
+  </section>
+
+  <section class="page">
+    <div class="inner">
+      
+      <h3 class="func-title">（6）【增强效果】音频变速</h3>
+      <p class="desc">调整播放速度（加速/减速），用于课程或配音场景。</p>
+      <ol class="steps">
+        <li>添加音频文件。</li><li>设置速度系数。</li><li>开始处理并验证输出效果。</li>
+      </ol>
+      <img class="shot" src="./screenshots/speed.png" alt="增强效果-音频变速" />
+    </div>
+    <div class="page-no">第 9 页</div>
+  </section>
+
+  <section class="page">
+    <div class="inner">
+      
+      <h3 class="func-title">（7）【增强效果】淡入淡出</h3>
+      <p class="desc">为音频开头设置淡入、结尾设置淡出，增强听感过渡。</p>
+      <ol class="steps">
+        <li>添加音频文件。</li><li>打开淡入淡出设置并填写时长。</li><li>应用设置并执行处理。</li>
+      </ol>
+      <img class="shot" src="./screenshots/fade.png" alt="增强效果-淡入淡出" />
+    </div>
+    <div class="page-no">第 10 页</div>
+  </section>
+
+  <section class="page">
+    <div class="inner">
+      
+      <h3 class="func-title">（8）【增强效果】均衡器</h3>
+      <p class="desc">使用均衡器对不同频段进行增益调整，优化音色。</p>
+      <ol class="steps">
+        <li>添加音频文件。</li><li>调节各频段增益。</li><li>开始处理并保存结果。</li>
+      </ol>
+      <img class="shot" src="./screenshots/equalizer.png" alt="增强效果-均衡器" />
+    </div>
+    <div class="page-no">第 11 页</div>
+  </section>
+
+  <section class="page">
+    <div class="inner">
+      
+      <h3 class="func-title">（9）【混音】添加背景音</h3>
+      <p class="desc">为音频添加背景音乐，可设置音量与循环。</p>
+      <ol class="steps">
+        <li>添加主音频与背景音文件。</li><li>设置背景音量与循环选项。</li><li>开始处理并预览结果。</li>
+      </ol>
+      <img class="shot" src="./screenshots/bgm.png" alt="混音-添加背景音" />
+    </div>
+    <div class="page-no">第 12 页</div>
+  </section>
+
+  <section class="page">
+    <div class="inner">
+      
+      <h3 class="func-title">（10）【视频相关】视频提取音频</h3>
+      <p class="desc">从视频文件中提取音频轨道，支持常见视频格式。</p>
+      <ol class="steps">
+        <li>添加视频文件。</li><li>选择输出格式。</li><li>开始提取并打开生成文件。</li>
+      </ol>
+      <img class="shot" src="./screenshots/video-extract.png" alt="视频相关-视频提取音频" />
+    </div>
+    <div class="page-no">第 13 页</div>
+  </section>
+
+  <section class="page">
+    <div class="inner">
+      
+      <h3 class="func-title">（11）【视频相关】视频替换音频</h3>
+      <p class="desc">将视频中的原音轨替换为指定音频文件。</p>
+      <ol class="steps">
+        <li>添加视频文件并选择替换音频。</li><li>确认替换参数。</li><li>开始处理并保存替换后视频。</li>
+      </ol>
+      <img class="shot" src="./screenshots/video-replace.png" alt="视频相关-视频替换音频" />
+    </div>
+    <div class="page-no">第 14 页</div>
+  </section>
+
+  <section class="page">
+    <div class="inner">
+      
+      <h3 class="func-title">（12）【基础处理】截去静音</h3>
+      <p class="desc">自动识别并移除音频中的静音段，提升紧凑度。</p>
+      <ol class="steps">
+        <li>添加音频文件。</li><li>设置静音阈值与最短时长。</li><li>开始处理并检查输出结果。</li>
+      </ol>
+      <img class="shot" src="./screenshots/silence.png" alt="基础处理-截去静音" />
+    </div>
+    <div class="page-no">第 15 页</div>
+  </section>
+
+  <section class="page">
+    <div class="inner">
+      
+      <h3 class="func-title">（13）【AI处理】视频消除人声</h3>
+      <p class="desc">对视频音轨进行人声消除，保留伴奏部分。</p>
+      <ol class="steps">
+        <li>添加视频文件。</li><li>选择人声消除模式。</li><li>开始处理并保存结果。</li>
+      </ol>
+      <img class="shot" src="./screenshots/video-remove-vocal.png" alt="AI处理-视频消除人声" />
+    </div>
+    <div class="page-no">第 16 页</div>
+  </section>
+</body>
+</html>

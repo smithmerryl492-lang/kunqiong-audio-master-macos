@@ -1,0 +1,26 @@
+{
+  "logs": {
+    "init_failed": "Initialisatie van het logbestand is mislukt:",
+    "app_started": "Applicatie gestart",
+    "frontend_not_found": "De frontenddist-map bestaat niet:",
+    "frontend_started": "De frontendHTTP-server is gestart: http://127.0.0.1:{port}",
+    "frontend_path": "Pad voor de frontendbestanden: {path}",
+    "frontend_failed": "Het starten van de frontendHTTP-server is mislukt:",
+    "stop_frontend": "Stop de frontendHTTP-server...",
+    "start_backend_dev": "Ontwikkelmodus: start de backend-service handmatig (python -m uvicorn app:app --reload)",
+    "backend_path": "Backendpad: {path}",
+    "backend_exists": "De backendbestanden bestaan: {exists}",
+    "backend_not_found": "Het backendprogramma bestaat niet:",
+    "start_backend": "Start de backend-service: {path}, poort: {port}",
+    "backend_failed": "Het starten van de backend is mislukt:",
+    "backend_exit": "De backendproces is afgesloten, code: {code}",
+    "stop_backend": "Stop de backend-service...",
+    "backend_ready": "De backend-service is gereed",
+    "waiting_backend": "Wachten op het opstarten van de backend... ({current}/{total})",
+    "backend_timeout": "Het opstarten van de backend-service is verlopen",
+    "icon_not_found": "Het hoofdicoonbestand bestaat niet:"
+  },
+  "window": {
+    "title": "Audioverwerkingsmeester"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "api": {
+    "title": "API کوآن کونگ تبدیل صوتی هوش مصنوعی",
+    "description": "سرویس پردازش صوت",
+    "running": "سرویس API کوآن کونگ تبدیل صوتی هوش مصنوعی در حال اجرا است"
+  },
+  "tags": {
+    "convert": "تبدیل صوت",
+    "fs": "سیستم فایل",
+    "cut": "بریدن صوت",
+    "video_extract": "استخراج صوت از ویدیو",
+    "merge": "ادغام صوت",
+    "transcribe": "تبدیل صوت به متن",
+    "volume": "تنظیم حجم صوت",
+    "record": "ضبط صوت",
+    "compress": "فشرده سازی صوت",
+    "speed": "تغییر سرعت صوت",
+    "fade": "ورود و خروج صوت",
+    "reverse": "برگرداندن صوت",
+    "denoise": "پاک کردن نویز صوت",
+    "echo": "صداهای بازتاب",
+    "silence": "حذف صدای سکوت",
+    "bgm": "افزودن BGM",
+    "equalizer": "کوادراتور",
+    "cover": "افزودن جلد",
+    "video_replace": "جایگزینی صوت ویدیو",
+    "noise": "تولید نویز",
+    "vocal": "استخراج صدای انسانی و همراه",
+    "bgm_library": "کتابخانه موسیقی BGM",
+    "video_remove_vocal": "حذف صدای انسانی از ویدیو",
+    "vocal_enhance": "تقویت صدای انسانی",
+    "tts": "تبدیل متن به صوت",
+    "effect": "افزودن اثر صوتی",
+    "translate": "ترجمه",
+    "voice": "تغییر صدای",
+    "analysis": "تحلیل صوتی هوش مصنوعی",
+    "tasks": "مدیریت وظایف"
+  },
+  "errors": {
+    "file_not_found": "فایل پیدا نشد",
+    "invalid_format": "فرمت غیر معتبر",
+    "processing_failed": "عملیات ناموفق بود",
+    "unsupported_format": "فرمت خروجی پشتیبانی نمی شود: {format}",
+    "convert_failed": "تبدیل ناموفق بود: {error}",
+    "cut_failed": "بریدن ناموفق بود: {error}",
+    "extract_failed": "استخراج ناموفق بود: {error}",
+    "empty_filename": "نام فایل نمی تواند خالی باشد",
+    "disallowed_file_type": "نوع فایل مجاز نیست: {ext}",
+    "file_size_exceeded": "حجم فایل بیش از حد مجاز است ({size}MB)",
+    "empty_file": "محتوای فایل خالی است",
+    "unsupported_file_format": "فرمت {type} پشتیبانی نمی شود: {mime}",
+    "unrecognized_file_format": "فرمت {type} قابل تشخیص نیست",
+    "field_required": "{field} نمی تواند خالی باشد",
+    "field_too_long": "طول {field} نمی تواند بیشتر از {max} کاراکتر باشد",
+    "unsafe_content": "{field} شامل محتوای نامطمئن است",
+    "unsafe_path": "مسیر نامطمئن است"
+  },
+  "types": {
+    "audio": "صوت",
+    "image": "عکس",
+    "document": "سند",
+    "text": "متن"
+  },
+  "messages": {
+    "convert_success": "تبدیل موفق بود",
+    "cut_success": "بریدن موفق بود",
+    "extract_success": "استخراج موفق بود",
+    "fallback_save_msg": "به دلیل محدودیت دسترسی به دایرکتوری، فایل در دایرکتوری موقت ذخیره شد"
+  }
+}

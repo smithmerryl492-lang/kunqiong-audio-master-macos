@@ -1,0 +1,178 @@
+{
+  "project_title": "音频处理大师",
+  "manual_subtitle": "（用户使用说明书）",
+  "manual_title": "音频处理大师用户使用说明书",
+  "base_url": "http://127.0.0.1:39006/index.html",
+  "intro": {
+    "title": "一、引言",
+    "purpose": "本文档用于指导用户完整使用音频处理大师的各项功能，包括音频转换、剪切合并、AI降噪与人声伴奏分离、淡入淡出、均衡器，以及视频相关的音频提取与替换等。",
+    "env_title": "二、运行环境",
+    "env_text": "推荐环境：Windows 10/11，内存 8GB 及以上。无需联网即可使用便携版；如需开发模式预览，请安装 Node.js 16+。",
+    "quick_title": "三、快速使用流程",
+    "quick_steps": [
+      "启动应用后，从左侧功能菜单选择需要的处理模块。",
+      "将待处理的音/视频文件拖拽到中心区域，或点击按钮添加文件。",
+      "设置输出格式或参数，点击开始处理，等待完成后在结果区查看并打开生成文件。"
+    ],
+    "overview_caption": "首页总览（用于识别整体布局与功能导航）",
+    "overview_screenshot": "home-overview.png"
+  },
+  "items": [
+    {
+      "category": "基础处理",
+      "title": "音频转换",
+      "url": "/",
+      "screenshot": "convert.png",
+      "description": "将音频转换为 MP3/WAV/FLAC 等格式，支持比特率设置。",
+      "steps": [
+        "添加音频文件。",
+        "选择输出格式与质量参数。",
+        "开始处理并在输出列表中查看生成路径。"
+      ]
+    },
+    {
+      "category": "基础处理",
+      "title": "音频剪切",
+      "url": "/",
+      "screenshot": "cut.png",
+      "description": "按起止时间裁剪音频片段，支持批量剪切。",
+      "steps": [
+        "添加音频文件。",
+        "设置开始与结束时间或选择片段。",
+        "执行剪切并保存结果。"
+      ]
+    },
+    {
+      "category": "基础处理",
+      "title": "音频合并",
+      "url": "/",
+      "screenshot": "merge.png",
+      "description": "将多段音频按顺序拼接为一段，支持重命名输出。",
+      "steps": [
+        "添加多段音频文件。",
+        "调整顺序并设置输出文件名。",
+        "开始合并并查看结果。"
+      ]
+    },
+    {
+      "category": "AI处理",
+      "title": "人声-伴奏提取",
+      "url": "/",
+      "screenshot": "vocal-separate.png",
+      "description": "使用 AI 模型将音轨分离为人声与伴奏，支持批量。",
+      "steps": [
+        "添加音频文件。",
+        "选择提取类型（人声/伴奏/全部）。",
+        "开始处理并在结果区查看输出。"
+      ]
+    },
+    {
+      "category": "增强效果",
+      "title": "音频降噪",
+      "url": "/",
+      "screenshot": "denoise.png",
+      "description": "降低背景噪声，提高语音清晰度，支持多档强度。",
+      "steps": [
+        "添加音频文件。",
+        "选择降噪级别。",
+        "开始处理并保存输出文件。"
+      ]
+    },
+    {
+      "category": "增强效果",
+      "title": "音频变速",
+      "url": "/",
+      "screenshot": "speed.png",
+      "description": "调整播放速度（加速/减速），用于课程或配音场景。",
+      "steps": [
+        "添加音频文件。",
+        "设置速度系数。",
+        "开始处理并验证输出效果。"
+      ]
+    },
+    {
+      "category": "增强效果",
+      "title": "淡入淡出",
+      "url": "/",
+      "screenshot": "fade.png",
+      "description": "为音频开头设置淡入、结尾设置淡出，增强听感过渡。",
+      "steps": [
+        "添加音频文件。",
+        "打开淡入淡出设置并填写时长。",
+        "应用设置并执行处理。"
+      ]
+    },
+    {
+      "category": "增强效果",
+      "title": "均衡器",
+      "url": "/",
+      "screenshot": "equalizer.png",
+      "description": "使用均衡器对不同频段进行增益调整，优化音色。",
+      "steps": [
+        "添加音频文件。",
+        "调节各频段增益。",
+        "开始处理并保存结果。"
+      ]
+    },
+    {
+      "category": "混音",
+      "title": "添加背景音",
+      "url": "/",
+      "screenshot": "bgm.png",
+      "description": "为音频添加背景音乐，可设置音量与循环。",
+      "steps": [
+        "添加主音频与背景音文件。",
+        "设置背景音量与循环选项。",
+        "开始处理并预览结果。"
+      ]
+    },
+    {
+      "category": "视频相关",
+      "title": "视频提取音频",
+      "url": "/",
+      "screenshot": "video-extract.png",
+      "description": "从视频文件中提取音频轨道，支持常见视频格式。",
+      "steps": [
+        "添加视频文件。",
+        "选择输出格式。",
+        "开始提取并打开生成文件。"
+      ]
+    },
+    {
+      "category": "视频相关",
+      "title": "视频替换音频",
+      "url": "/",
+      "screenshot": "video-replace.png",
+      "description": "将视频中的原音轨替换为指定音频文件。",
+      "steps": [
+        "添加视频文件并选择替换音频。",
+        "确认替换参数。",
+        "开始处理并保存替换后视频。"
+      ]
+    },
+    {
+      "category": "基础处理",
+      "title": "截去静音",
+      "url": "/",
+      "screenshot": "silence.png",
+      "description": "自动识别并移除音频中的静音段，提升紧凑度。",
+      "steps": [
+        "添加音频文件。",
+        "设置静音阈值与最短时长。",
+        "开始处理并检查输出结果。"
+      ]
+    },
+    {
+      "category": "AI处理",
+      "title": "视频消除人声",
+      "url": "/",
+      "screenshot": "video-remove-vocal.png",
+      "description": "对视频音轨进行人声消除，保留伴奏部分。",
+      "steps": [
+        "添加视频文件。",
+        "选择人声消除模式。",
+        "开始处理并保存结果。"
+      ]
+    }
+  ]
+}

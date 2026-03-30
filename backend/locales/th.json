@@ -1,0 +1,70 @@
+{
+  "api": {
+    "title": "Kunqiong AI Audio Converter API",
+    "description": "บริการหลังบ้านสำหรับประมวลผลเสียง",
+    "running": "บริการ Kunqiong AI Audio Converter API กำลังทำงานอยู่"
+  },
+  "tags": {
+    "convert": "แปลงเสียง",
+    "fs": "ระบบไฟล์",
+    "cut": "ตัดเสียง",
+    "video_extract": "แยกเสียงจากวิดีโอ",
+    "merge": "รวมเสียง",
+    "transcribe": "แปลงเสียงเป็นข้อความ",
+    "volume": "ปรับระดับเสียง",
+    "record": "บันทึกเสียง",
+    "compress": "บีบอัดเสียง",
+    "speed": "เปลี่ยนความเร็วเสียง",
+    "fade": "เพิ่มเอฟเฟกต์ฟ้าผ่าและจางหาย",
+    "reverse": "เล่นเสียงย้อนกลับ",
+    "denoise": "ลดเสียงรบกวน",
+    "echo": "เพิ่มเสียงสะท้อน",
+    "silence": "ลบเสียงเงียบออก",
+    "bgm": "เพิ่มเพลงพื้นหลัง",
+    "equalizer": "ปรับแต่งอีควอไลเซอร์",
+    "cover": "เพิ่มปกให้กับไฟล์เสียง",
+    "video_replace": "แทนที่เสียงในวิดีโอ",
+    "noise": "สร้างเสียงรบกวน",
+    "vocal": "แยกเสียงร้องออกจากดนตรี",
+    "bgm_library": "คลังเพลงพื้นหลัง",
+    "video_remove_vocal": "ลบเสียงร้องออกจากวิดีโอ",
+    "vocal_enhance": "เพิ่มประสิทธิภาพเสียงร้อง",
+    "tts": "แปลงข้อความเป็นเสียง",
+    "effect": "เพิ่มเอฟเฟกต์เสียง",
+    "translate": "แปลภาษา",
+    "voice": "เปลี่ยนเสียง",
+    "analysis": "วิเคราะห์เสียงด้วย AI",
+    "tasks": "จัดการงาน"
+  },
+  "errors": {
+    "file_not_found": "ไม่พบไฟล์",
+    "invalid_format": "รูปแบบไม่ถูกต้อง",
+    "processing_failed": "การประมวลผลล้มเหลว",
+    "unsupported_format": "รูปแบบเอาต์พุตไม่รองรับ: {format}",
+    "convert_failed": "การแปลงล้มเหลว: {error}",
+    "cut_failed": "การตัดล้มเหลว: {error}",
+    "extract_failed": "การแยกเสียงล้มเหลว: {error}",
+    "empty_filename": "ชื่อไฟล์ต้องไม่ว่าง",
+    "disallowed_file_type": "ประเภทไฟล์ไม่อนุญาต: {ext}",
+    "file_size_exceeded": "ขนาดไฟล์เกินขีดจำกัด ({size}MB)",
+    "empty_file": "เนื้อหาไฟล์ว่างเปล่า",
+    "unsupported_file_format": "รูปแบบ {type} ไม่รองรับ: {mime}",
+    "unrecognized_file_format": "ไม่สามารถระบุรูปแบบ {type} ได้",
+    "field_required": "{field} ต้องไม่ว่าง",
+    "field_too_long": "{field} ต้องมีความยาวไม่เกิน {max} ตัวอักษร",
+    "unsafe_content": "{field} มีเนื้อหาที่ไม่ปลอดภัย",
+    "unsafe_path": "เส้นทางไม่ปลอดภัย"
+  },
+  "types": {
+    "audio": "เสียง",
+    "image": "รูปภาพ",
+    "document": "เอกสาร",
+    "text": "ข้อความ"
+  },
+  "messages": {
+    "convert_success": "การแปลงสำเร็จ",
+    "cut_success": "การตัดสำเร็จ",
+    "extract_success": "การแยกสำเร็จ",
+    "fallback_save_msg": "เนื่องจากข้อจำกัดด้านสิทธิ์ของโฟลเดอร์ ไฟล์ได้ถูกบันทึกไว้ที่โฟลเดอร์ชั่วคราว"
+  }
+}

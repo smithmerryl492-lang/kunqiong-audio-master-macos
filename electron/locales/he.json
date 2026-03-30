@@ -1,0 +1,26 @@
+{
+  "logs": {
+    "init_failed": "כישלון ביצירת קובץ יומן:",
+    "app_started": "האפליקציה התחילה",
+    "frontend_not_found": "התיקייה של ה-front-end (dist) אינה קיימת:",
+    "frontend_started": "שרת HTTP של ה-front-end запущен: http://127.0.0.1:{port}",
+    "frontend_path": "נתיב הקבצים של ה-front-end: {path}",
+    "frontend_failed": "כישלון בפתיחת שרת HTTP של ה-front-end:",
+    "stop_frontend": "עצירת שרת HTTP של ה-front-end...",
+    "start_backend_dev": "מצב פיתוח: אנא הפעיל את שירות ה-back-end ידנית (python -m uvicorn app:app --reload)",
+    "backend_path": "נתיב שרת ה-back-end: {path}",
+    "backend_exists": "קובץ ה-back-end קיים: {exists}",
+    "backend_not_found": "הبرنامج של ה-back-end אינו קיים:",
+    "start_backend": "הפעלת שירות ה-back-end: {path} מספרพอרט: {port}",
+    "backend_failed": "כישלון בהפעלת ה-back-end:",
+    "backend_exit": "הعملיה של ה-back-end נסגרה, קוד: {code}",
+    "stop_backend": "עצירת שירות ה-back-end...",
+    "backend_ready": "שירות ה-back-end pronto",
+    "waiting_backend": "انتظر להפעלת ה-back-end... ({current}/{total})",
+    "backend_timeout": "הפעלת שירות ה-back-end חרגה מהזמן המותר",
+    "icon_not_found": "קובץ סמל הראשי אינו קיים:"
+  },
+  "window": {
+    "title": "מאסטר לטיפול בקול"
+  }
+}

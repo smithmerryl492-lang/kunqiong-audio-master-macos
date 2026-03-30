@@ -1,0 +1,26 @@
+{
+  "logs": {
+    "init_failed": "লগ ফাইল আরম্ভ করা হয়নি:",
+    "app_started": "অ্যাপ শুরু হয়েছে",
+    "frontend_not_found": "ফ্রন্টএন্ড dist ডিরেক্টরি খুঁজে পাওয়া যায়নি:",
+    "frontend_started": "ফ্রন্টএন্ড HTTP সার্ভার চালু হয়েছে: http://127.0.0.1:{port}",
+    "frontend_path": "ফ্রন্টএন্ড ফাইলের পথ: {path}",
+    "frontend_failed": "ফ্রন্টএন্ড HTTP সার্ভার চালু হয়নি:",
+    "stop_frontend": "ফ্রন্টএন্ড HTTP সার্ভার বন্ধ করা হচ্ছে...",
+    "start_backend_dev": "ডেভেলপমেন্ট মোড: দয়া করে স্বয়ংক্রিয়ভাবে ব্যাকেন্ড সেবা চালু করুন (python -m uvicorn app:app --reload)",
+    "backend_path": "ব্যাকেন্ড পথ: {path}",
+    "backend_exists": "ব্যাকেন্ড ফাইল উপস্থিত: {exists}",
+    "backend_not_found": "ব্যাকেন্ড প্রোগ্রাম খুঁজে পাওয়া যায়নি:",
+    "start_backend": "ব্যাকেন্ড সেবা চালু করুন: {path} পোর্ট: {port}",
+    "backend_failed": "ব্যাকেন্ড চালু হয়নি:",
+    "backend_exit": "ব্যাকেন্ড প্রক্রিয়া শেষ হয়েছে, কোড: {code}",
+    "stop_backend": "ব্যাকেন্ড সেবা বন্ধ করা হচ্ছে...",
+    "backend_ready": "ব্যাকেন্ড সেবা প্রস্তুত",
+    "waiting_backend": "ব্যাকেন্ড চালু হওয়ার অপেক্ষা করুন... ({current}/{total})",
+    "backend_timeout": "ব্যাকেন্ড সেবা চালু হওয়ার সময় শেষ হয়ে গেল",
+    "icon_not_found": "মূখ্য আইকন ফাইল খুঁজে পাওয়া যায়নি:"
+  },
+  "window": {
+    "title": "অডিও প্রসেসিং মাস্টার"
+  }
+}

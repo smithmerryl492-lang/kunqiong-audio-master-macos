@@ -1,0 +1,26 @@
+{
+  "logs": {
+    "init_failed": "Ukamilishaji wa faili za kumbukumbu uliofaulu:",
+    "app_started": "Programu imeanzishwa",
+    "frontend_not_found": "Diri ya dist ya mbele haijapatikana:",
+    "frontend_started": "Seva ya HTTP ya mbele imeanzishwa: http://127.0.0.1:{port}",
+    "frontend_path": "Njia ya faili za mbele: {path}",
+    "frontend_failed": "Ukamilishaji wa seva ya HTTP ya mbele uliofaulu:",
+    "stop_frontend": "Kusitisha seva ya HTTP ya mbele...",
+    "start_backend_dev": "Mzunguko wa maendeleo: Tafadhali uanzishe huduma ya backend kiotomatiki (python -m uvicorn app:app --reload)",
+    "backend_path": "Njia ya backend: {path}",
+    "backend_exists": "Faili za backend zipo: {exists}",
+    "backend_not_found": "Programu ya backend haijapatikana:",
+    "start_backend": "Kuzindua huduma ya backend: {path} bandari: {port}",
+    "backend_failed": "Ukamilishaji wa backend uliofaulu:",
+    "backend_exit": "Mchakato wa backend umetoka, nakala: {code}",
+    "stop_backend": "Kusitisha huduma ya backend...",
+    "backend_ready": "Huduma ya backend imekaribiana",
+    "waiting_backend": "Kusubiri ukamilishaji wa backend... ({current}/{total})",
+    "backend_timeout": "Ukamilishaji wa huduma ya backend umepita wakati",
+    "icon_not_found": "Faili ya picha kuu haijapatikana:"
+  },
+  "window": {
+    "title": "Mwamuzi wa usindikaji wa sauti"
+  }
+}

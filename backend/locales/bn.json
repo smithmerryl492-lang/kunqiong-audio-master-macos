@@ -1,0 +1,70 @@
+{
+  "api": {
+    "title": "কুয়ান কিং এআই অডিও রূপান্তরকারী API",
+    "description": "অডিও প্রক্রিয়াকরণ ব্যাকেন্ড সেবা",
+    "running": "কুয়ান কিং এআই অডিও রূপান্তরকারী API সেবা চলমান"
+  },
+  "tags": {
+    "convert": "অডিও রূপান্তর",
+    "fs": "ফাইল সিস্টেম",
+    "cut": "অডিও কাটা",
+    "video_extract": "ভিডিও থেকে অডিও আউটপুট",
+    "merge": "অডিও মার্জ",
+    "transcribe": "অডিও থেকে টেক্সট",
+    "volume": "ধ্বনি স্তর সমায়োজন",
+    "record": "অডিও রেকর্ড করুন",
+    "compress": "অডিও সংকুচিত করুন",
+    "speed": "অডিও গতি পরিবর্তন",
+    "fade": "ফেড ইন/আউট",
+    "reverse": "অডিও উল্টে দিন",
+    "denoise": "অডিও শব্দহীন করুন",
+    "echo": "প্রতিধ্বনি",
+    "silence": "শব্দহীন অংশ অপসারণ",
+    "bgm": "BGM যোগ করুন",
+    "equalizer": "সমানীকরণকারী",
+    "cover": "কভার যোগ করুন",
+    "video_replace": "ভিডিওতে অডিও প্রতিস্থাপন",
+    "noise": "শব্দ উত্পাদন",
+    "vocal": "মানুষের গান এবং সঙ্গীত আলাদা করুন",
+    "bgm_library": "BGM সঙ্গীত বাহক",
+    "video_remove_vocal": "ভিডিও থেকে মানুষের গান অপসারণ",
+    "vocal_enhance": "মানুষের গান উন্নয়ন",
+    "tts": "টেক্সট থেকে স্বর",
+    "effect": "ধ্বনি প্রভাব যোগ করুন",
+    "translate": "অনুবাদ",
+    "voice": "স্বর পরিবর্তন",
+    "analysis": "AI অডিও বিশ্লেষণ",
+    "tasks": "টাস্ক পরিচালনা"
+  },
+  "errors": {
+    "file_not_found": "ফাইল খুঁজে পাওয়া যায়নি",
+    "invalid_format": "অবৈধ ফরম্যাট",
+    "processing_failed": "প্রক্রিয়াকরণ ব্যর্থ",
+    "unsupported_format": "অসমর্থিত আউটপুট ফরম্যাট: {format}",
+    "convert_failed": "রূপান্তর ব্যর্থ: {error}",
+    "cut_failed": "কাটা ব্যর্থ: {error}",
+    "extract_failed": "আউটপুট ব্যর্থ: {error}",
+    "empty_filename": "ফাইলের নাম খালি হতে পারে না",
+    "disallowed_file_type": "অনুমোদিত ফাইল ধরণ: {ext}",
+    "file_size_exceeded": "ফাইলের আকার সীমা ছাড়িয়ে গেছে ({size}MB)",
+    "empty_file": "ফাইলের কোন কনটেন্ট নেই",
+    "unsupported_file_format": "অসমর্থিত {type} ফরম্যাট: {mime}",
+    "unrecognized_file_format": "অজানা {type} ফরম্যাট",
+    "field_required": "{field} খালি হতে পারে না",
+    "field_too_long": "{field} আরও বেশি {max} অক্ষর হতে পারে না",
+    "unsafe_content": "{field} অসুরক্ষিত কনটেন্ট অন্তর্ভুক্ত করে",
+    "unsafe_path": "অসুরক্ষিত পথ"
+  },
+  "types": {
+    "audio": "অডিও",
+    "image": "ছবি",
+    "document": "নথি",
+    "text": "টেক্সট"
+  },
+  "messages": {
+    "convert_success": "রূপান্তর সফল",
+    "cut_success": "কাটা সফল",
+    "extract_success": "আউটপুট সফল",
+    "fallback_save_msg": "ডিরেক্টরি অনুমতির কারণে, ফাইলটি অস্থায়ী ডিরেক্টরিতে সংরক্ষিত হয়েছে"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "logs": {
+    "init_failed": "Inicjalizacja pliku dziennika nie powiodła się:",
+    "app_started": "Uruchomiono aplikację",
+    "frontend_not_found": "Katalog dist frontendu nie istnieje:",
+    "frontend_started": "Serwer HTTP frontendu został uruchomiony: http://127.0.0.1:{port}",
+    "frontend_path": "Ścieżka plików frontendu: {path}",
+    "frontend_failed": "Uruchomienie serwera HTTP frontendu nie powiodło się:",
+    "stop_frontend": "Zatrzymywany jest serwer HTTP frontendu...",
+    "start_backend_dev": "Tryb deweloperski: proszę ręcznie uruchomić usługę backendową (python -m uvicorn app:app --reload)",
+    "backend_path": "Ścieżka backendu: {path}",
+    "backend_exists": "Pliki backendu istnieją: {exists}",
+    "backend_not_found": "Program backendu nie istnieje:",
+    "start_backend": "Uruchamianie usługi backendowej: {path}, port: {port}",
+    "backend_failed": "Uruchomienie backendu nie powiodło się:",
+    "backend_exit": "Proces backendu zakończył się, kod: {code}",
+    "stop_backend": "Zatrzymywana jest usługa backendowa...",
+    "backend_ready": "Usługa backendowa jest gotowa",
+    "waiting_backend": "Oczekiwanie na uruchomienie backendu... ({current}/{total})",
+    "backend_timeout": "Przekroczono limit czasu uruchomienia usługi backendowej",
+    "icon_not_found": "Plik ikony głównej nie istnieje:"
+  },
+  "window": {
+    "title": "Mistrz przetwarzania audio"
+  }
+}

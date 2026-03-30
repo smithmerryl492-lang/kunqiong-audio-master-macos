@@ -1,0 +1,4 @@
+interface:
+  display_name: "Manual PDF Builder"
+  short_description: "Standardized manual workflow with Playwright screenshots"
+  default_prompt: "Use $manual-playwright-pdf to capture all feature pages and generate standardized HTML and PDF manuals."

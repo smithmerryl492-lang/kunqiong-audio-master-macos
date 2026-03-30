@@ -1,0 +1,26 @@
+{
+  "logs": {
+    "init_failed": "شکست در ایجاد فایل لاگ:",
+    "app_started": "اپلیکیشن راه‌اندازی شد",
+    "frontend_not_found": "دایرکتوری dist جلوه وجود ندارد:",
+    "frontend_started": "سرویس HTTP جلوه راه‌اندازی شد: http://127.0.0.1:{port}",
+    "frontend_path": "مسیر فایل جلوه: {path}",
+    "frontend_failed": "راه‌اندازی سرویس HTTP جلوه شکست خورد:",
+    "stop_frontend": "در حال توقف سرویس HTTP جلوه...",
+    "start_backend_dev": "حالت توسعه: لطفاً سرویس پشتی به صورت دستی راه‌اندازی کنید (python -m uvicorn app:app --reload)",
+    "backend_path": "مسیر پشتی: {path}",
+    "backend_exists": "فایل پشتی موجود است: {exists}",
+    "backend_not_found": " برنامه پشتی موجود نیست:",
+    "start_backend": "راه‌اندازی سرویس پشتی: {path} پورت: {port}",
+    "backend_failed": "راه‌اندازی پشتی شکست خورد:",
+    "backend_exit": "فرآیند پشتی متوقف شد، کد: {code}",
+    "stop_backend": "در حال توقف سرویس پشتی...",
+    "backend_ready": "سرویس پشتی آماده شد",
+    "waiting_backend": "در انتظار راه‌اندازی پشتی... ({current}/{total})",
+    "backend_timeout": "زمان راه‌اندازی پشتی تمام شد",
+    "icon_not_found": "فایل ایکون اصلی وجود ندارد:"
+  },
+  "window": {
+    "title": "ماهر پردازش صوت"
+  }
+}

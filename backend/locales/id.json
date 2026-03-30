@@ -1,0 +1,70 @@
+{
+  "api": {
+    "title": "API Pengonversi Suara Kungqiong AI",
+    "description": "Layanan backend pemrosesan suara",
+    "running": "Layanan API Pengonversi Suara Kungqiong AI sedang berjalan"
+  },
+  "tags": {
+    "convert": "Konversi Suara",
+    "fs": "Sistem File",
+    "cut": "Potong Suara",
+    "video_extract": "Ekstrak Suara dari Video",
+    "merge": "Gabungkan Suara",
+    "transcribe": "Konversi Suara ke Teks",
+    "volume": "Penyesuaian Volume",
+    "record": "Perekaman Suara",
+    "compress": "Kompresi Suara",
+    "speed": "Percepatan Suara",
+    "fade": "Fade In/Fade Out",
+    "reverse": "Putar Terbalik",
+    "denoise": "Reduksi Noise",
+    "echo": "Echo",
+    "silence": "Hapus Suara Tenang",
+    "bgm": "Tambahkan BGM",
+    "equalizer": "Equalizer",
+    "cover": "Tambahkan Sampul",
+    "video_replace": "Ganti Suara dalam Video",
+    "noise": "Buat Noise",
+    "vocal": "Ekstraksi Suara Manusia dan Musik",
+    "bgm_library": "Perpustakaan Musik BGM",
+    "video_remove_vocal": "Hapus Suara Manusia dari Video",
+    "vocal_enhance": "Peningkatan Suara Manusia",
+    "tts": "Konversi Teks ke Suara",
+    "effect": "Tambahkan Efek Suara",
+    "translate": "Terjemahan",
+    "voice": "Ubah Suara",
+    "analysis": "Analisis Suara AI",
+    "tasks": "Manajemen Tugas"
+  },
+  "errors": {
+    "file_not_found": "File tidak ditemukan",
+    "invalid_format": "Format tidak valid",
+    "processing_failed": "Pemrosesan gagal",
+    "unsupported_format": "Format output tidak didukung: {format}",
+    "convert_failed": "Konversi gagal: {error}",
+    "cut_failed": "Potong gagal: {error}",
+    "extract_failed": "Ekstrak gagal: {error}",
+    "empty_filename": "Nama file tidak boleh kosong",
+    "disallowed_file_type": "Jenis file tidak diizinkan: {ext}",
+    "file_size_exceeded": "Ukuran file melebihi batas ({size}MB)",
+    "empty_file": "Isi file kosong",
+    "unsupported_file_format": "Format {type} tidak didukung: {mime}",
+    "unrecognized_file_format": "Format {type} tidak dapat dienali",
+    "field_required": "{field} tidak boleh kosong",
+    "field_too_long": "Panjang {field} tidak boleh melebihi {max} karakter",
+    "unsafe_content": "{field} mengandung konten yang tidak aman",
+    "unsafe_path": "Jalur tidak aman"
+  },
+  "types": {
+    "audio": "Suara",
+    "image": "Gambar",
+    "document": "Dokumen",
+    "text": "Teks"
+  },
+  "messages": {
+    "convert_success": "Konversi berhasil",
+    "cut_success": "Potong berhasil",
+    "extract_success": "Ekstrak berhasil",
+    "fallback_save_msg": "Karena izin direktori terbatas, file telah disimpan ke direktori sementara"
+  }
+}

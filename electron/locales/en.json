@@ -1,0 +1,26 @@
+{
+  "logs": {
+    "init_failed": "Failed to initialize log file:",
+    "app_started": "Application started",
+    "frontend_not_found": "Frontend dist directory not found:",
+    "frontend_started": "Frontend HTTP server started: http://127.0.0.1:{port}",
+    "frontend_path": "Frontend file path: {path}",
+    "frontend_failed": "Failed to start frontend HTTP server:",
+    "stop_frontend": "Stopping frontend HTTP server...",
+    "start_backend_dev": "Development mode: Please manually start the backend service (python -m uvicorn app:app --reload)",
+    "backend_path": "Backend path: {path}",
+    "backend_exists": "Backend file exists: {exists}",
+    "backend_not_found": "Backend program not found:",
+    "start_backend": "Starting backend service: {path} Port: {port}",
+    "backend_failed": "Failed to start backend:",
+    "backend_exit": "Backend process exited, code: {code}",
+    "stop_backend": "Stopping backend service...",
+    "backend_ready": "Backend service is ready",
+    "waiting_backend": "Waiting for backend startup... ({current}/{total})",
+    "backend_timeout": "Backend service startup timeout",
+    "icon_not_found": "Main icon file not found:"
+  },
+  "window": {
+    "title": "Audio Processing Master"
+  }
+}

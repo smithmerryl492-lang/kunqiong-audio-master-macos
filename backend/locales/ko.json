@@ -1,0 +1,70 @@
+{
+  "api": {
+    "title": "쿤궁 AI 오디오 변환기 API",
+    "description": "오디오 처리 백엔드 서비스",
+    "running": "쿤궁 AI 오디오 변환기 API 서비스가 실행 중입니다."
+  },
+  "tags": {
+    "convert": "오디오 변환",
+    "fs": "파일 시스템",
+    "cut": "오디오 자르기",
+    "video_extract": "영상에서 오디오 추출",
+    "merge": "오디오 합치기",
+    "transcribe": "오디오를 텍스트로 변환",
+    "volume": "음량 조절",
+    "record": "오디오 녹음",
+    "compress": "오디오 압축",
+    "speed": "오디오 속도 변경",
+    "fade": "페이드 인/아웃",
+    "reverse": "오디오 역방향 재생",
+    "denoise": "오디오 노이즈 제거",
+    "echo": "에코 효과",
+    "silence": "무음 제거",
+    "bgm": "BGM 추가",
+    "equalizer": "이퀄라이저",
+    "cover": "커버 추가",
+    "video_replace": "영상에 오디오 교체",
+    "noise": "노이즈 생성",
+    "vocal": "보컬 반주 추출",
+    "bgm_library": "BGM 음악 라이브러리",
+    "video_remove_vocal": "영상에서 보컬 제거",
+    "vocal_enhance": "보컬 강화",
+    "tts": "텍스트를 음성으로 변환",
+    "effect": "음향 효과 추가",
+    "translate": "번역",
+    "voice": "목소리 변조",
+    "analysis": "AI 오디오 분석",
+    "tasks": "작업 관리"
+  },
+  "errors": {
+    "file_not_found": "파일을 찾을 수 없습니다.",
+    "invalid_format": "유효하지 않은 형식입니다.",
+    "processing_failed": "처리에 실패했습니다.",
+    "unsupported_format": "지원되지 않는 출력 형식: {format}",
+    "convert_failed": "변환에 실패했습니다: {error}",
+    "cut_failed": "자르기에 실패했습니다: {error}",
+    "extract_failed": "추출에 실패했습니다: {error}",
+    "empty_filename": "파일 이름은 비워둘 수 없습니다.",
+    "disallowed_file_type": "허용되지 않는 파일 유형: {ext}",
+    "file_size_exceeded": "파일 크기가 한도를 초과했습니다 ({size}MB)",
+    "empty_file": "파일 내용이 비어 있습니다.",
+    "unsupported_file_format": "{type} 형식이 지원되지 않습니다: {mime}",
+    "unrecognized_file_format": "{type} 형식을 인식할 수 없습니다.",
+    "field_required": "{field}는 비워둘 수 없습니다.",
+    "field_too_long": "{field}의 길이는 {max}자를 초과할 수 없습니다.",
+    "unsafe_content": "{field}에는 안전하지 않은 콘텐츠가 포함되어 있습니다.",
+    "unsafe_path": "안전하지 않은 경로입니다."
+  },
+  "types": {
+    "audio": "오디오",
+    "image": "이미지",
+    "document": "문서",
+    "text": "텍스트"
+  },
+  "messages": {
+    "convert_success": "변환이 성공했습니다.",
+    "cut_success": "자르기가 성공했습니다.",
+    "extract_success": "추출이 성공했습니다.",
+    "fallback_save_msg": "디렉터리 권한 제한으로 인해 파일이 임시 디렉터리에 저장되었습니다."
+  }
+}

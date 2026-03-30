@@ -1,0 +1,70 @@
+{
+  "api": {
+    "title": "API Konwertera Audio AI Kunqiong",
+    "description": "Usługa serwera przetwarzania audio",
+    "running": "Usługa API Konwertera Audio AI Kunqiong jest w trybie pracy"
+  },
+  "tags": {
+    "convert": "Konwersja audio",
+    "fs": "System plików",
+    "cut": "Odcinanie audio",
+    "video_extract": "Wyodrębnianie audio z filmu",
+    "merge": "Łączenie audio",
+    "transcribe": "Przetworzenie audio na tekst",
+    "volume": "Dostosowanie głośności",
+    "record": "Nagrywanie audio",
+    "compress": "Kompresja audio",
+    "speed": "Zmiana prędkości audio",
+    "fade": "Efekt fade-in/fade-out",
+    "reverse": "Odwrócenie audio",
+    "denoise": "Redukcja szumów audio",
+    "echo": "Dodawanie echa",
+    "silence": "Usuwanie ciszy",
+    "bgm": "Dodawanie muzyki do tła",
+    "equalizer": "Ustawienia ekwalizatora",
+    "cover": "Dodawanie okładki",
+    "video_replace": "Zamiana audio w filmie",
+    "noise": "Generowanie szumu",
+    "vocal": "Wyciąganie śpiewu i akompaniamentu",
+    "bgm_library": "Biblioteka muzyki do tła",
+    "video_remove_vocal": "Usuwanie głosu z filmu",
+    "vocal_enhance": "Wzmacnianie głosu",
+    "tts": "Przetworzenie tekstu na audio",
+    "effect": "Dodawanie efektów dźwiękowych",
+    "translate": "Tłumaczenie",
+    "voice": "Zmiana głosu",
+    "analysis": "Analiza audio za pomocą AI",
+    "tasks": "Zarządzanie zadaniami"
+  },
+  "errors": {
+    "file_not_found": "Nie znaleziono pliku",
+    "invalid_format": "Format nie jest prawidłowy",
+    "processing_failed": "Przetwarzanie nie powiodło się",
+    "unsupported_format": "Nieobsługiwany format wyjściowy: {format}",
+    "convert_failed": "Konwersja nie powiodła się: {error}",
+    "cut_failed": "Odcinanie nie powiodło się: {error}",
+    "extract_failed": "Wyodrębnianie nie powiodło się: {error}",
+    "empty_filename": "Nazwa pliku nie może być pusta",
+    "disallowed_file_type": "Nieobsługiwany typ pliku: {ext}",
+    "file_size_exceeded": "Rozmiar pliku przekracza limit ({size} MB)",
+    "empty_file": "Treść pliku jest pusta",
+    "unsupported_file_format": "Nieobsługiwany format {type}: {mime}",
+    "unrecognized_file_format": "Nie rozpoznano formatu {type}",
+    "field_required": "{field} nie może być puste",
+    "field_too_long": "{field} nie może przekraczać {max} znaków",
+    "unsafe_content": "{field} zawiera treści niebezpieczne",
+    "unsafe_path": "Niebezpieczny ścieżka dostępu"
+  },
+  "types": {
+    "audio": "Audio",
+    "image": "Obraz",
+    "document": "Dokument",
+    "text": "Tekst"
+  },
+  "messages": {
+    "convert_success": "Konwersja zakończyła się pomyślnie",
+    "cut_success": "Odcinanie zakończyło się pomyślnie",
+    "extract_success": "Wyodrębnienie zakończyło się pomyślnie",
+    "fallback_save_msg": "Ze względu na ograniczenia dotyczące uprawnień do katalogu, plik został zapisany w katalogu tymczasowym"
+  }
+}

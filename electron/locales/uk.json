@@ -1,0 +1,26 @@
+{
+  "logs": {
+    "init_failed": "Помилка ініціалізації файлу журналів:",
+    "app_started": "Запуск додатку",
+    "frontend_not_found": "Каталог dist фронтенду не існує:",
+    "frontend_started": "Фронтенд HTTP-сервер запущено: http://127.0.0.1:{port}",
+    "frontend_path": "Шлях до файлів фронтенду: {path}",
+    "frontend_failed": "Помилка запуску фронтенд HTTP-сервера:",
+    "stop_frontend": "Зупиняємо фронтенд HTTP-сервер...",
+    "start_backend_dev": "Режим розробки: запустіть сервер бекенду вручну (python -m uvicorn app:app --reload)",
+    "backend_path": "Шлях до бекенду: {path}",
+    "backend_exists": "Файли бекенду існують: {exists}",
+    "backend_not_found": "Програма бекенду не існує:",
+    "start_backend": "Запускаємо сервер бекенду: {path}, порт: {port}",
+    "backend_failed": "Помилка запуску бекенду:",
+    "backend_exit": "Процес бекенду завершився з кодом: {code}",
+    "stop_backend": "Зупиняємо сервер бекенду...",
+    "backend_ready": "Сервер бекенду готовий до роботи",
+    "waiting_backend": "Чекаємо на запуск бекенду... ({current}/{total})",
+    "backend_timeout": "Перевищено час очікування запуску серверу бекенду",
+    "icon_not_found": "Файл головного значка не існує:"
+  },
+  "window": {
+    "title": "Майстер обробки аудіо"
+  }
+}

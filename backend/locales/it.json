@@ -1,0 +1,70 @@
+{
+  "api": {
+    "title": "API Convertitore Audio Kungfeng AI",
+    "description": "Servizio di elaborazione audio",
+    "running": "Il servizio API Convertitore Audio Kungfeng AI è in esecuzione"
+  },
+  "tags": {
+    "convert": "Conversione audio",
+    "fs": "File system",
+    "cut": "Taglio audio",
+    "video_extract": "Estrazione audio da video",
+    "merge": "Unione audio",
+    "transcribe": "Trascrizione audio",
+    "volume": "Regolazione del volume",
+    "record": "Registrazione audio",
+    "compress": "Compressione audio",
+    "speed": "Modifica velocità audio",
+    "fade": "Fade in/fade out",
+    "reverse": "Audio al contrario",
+    "denoise": "Riduzione del rumore",
+    "echo": "Ripetizione",
+    "silence": "Rimozione del silenzio",
+    "bgm": "Aggiungi BGM",
+    "equalizer": "Equalizzatore",
+    "cover": "Aggiungi copertina",
+    "video_replace": "Sostituzione audio nel video",
+    "noise": "Generazione di rumore",
+    "vocal": "Estrazione voce e accompagnamento",
+    "bgm_library": "Libreria BGM",
+    "video_remove_vocal": "Rimozione della voce dal video",
+    "vocal_enhance": "Rafforzamento della voce",
+    "tts": "Testo in voce",
+    "effect": "Aggiungi effetti sonori",
+    "translate": "Traduzione",
+    "voice": "Cambiamento voce",
+    "analysis": "Analisi audio AI",
+    "tasks": "Gestione delle attività"
+  },
+  "errors": {
+    "file_not_found": "File non trovato",
+    "invalid_format": "Formato non valido",
+    "processing_failed": "Elaborazione fallita",
+    "unsupported_format": "Formato di output non supportato: {format}",
+    "convert_failed": "Conversione fallita: {error}",
+    "cut_failed": "Taglio fallito: {error}",
+    "extract_failed": "Estrazione fallita: {error}",
+    "empty_filename": "Il nome del file non può essere vuoto",
+    "disallowed_file_type": "Tipo di file non consentito: {ext}",
+    "file_size_exceeded": "Dimensione del file superiore al limite ({size}MB)",
+    "empty_file": "Il contenuto del file è vuoto",
+    "unsupported_file_format": "Formato {type} non supportato: {mime}",
+    "unrecognized_file_format": "Formato {type} non riconosciuto",
+    "field_required": "{field} non può essere vuoto",
+    "field_too_long": "La lunghezza di {field} non può superare {max} caratteri",
+    "unsafe_content": "{field} contiene contenuti non sicuri",
+    "unsafe_path": "Percorso non sicuro"
+  },
+  "types": {
+    "audio": "Audio",
+    "image": "Immagine",
+    "document": "Documento",
+    "text": "Testo"
+  },
+  "messages": {
+    "convert_success": "Conversione riuscita",
+    "cut_success": "Taglio riuscito",
+    "extract_success": "Estrazione riuscita",
+    "fallback_save_msg": "A causa dei limiti di autorizzazione della directory, il file è stato salvato nella directory temporanea"
+  }
+}

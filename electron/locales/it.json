@@ -1,0 +1,26 @@
+{
+  "logs": {
+    "init_failed": "Impossibile inizializzare il file di log:",
+    "app_started": "Applicazione avviata",
+    "frontend_not_found": "Cartella dist del frontend non esiste:",
+    "frontend_started": "Server HTTP del frontend avviato: http://127.0.0.1:{port}",
+    "frontend_path": "Percorso dei file frontend: {path}",
+    "frontend_failed": "Avvio del server HTTP del frontend fallito:",
+    "stop_frontend": "Arresto del server HTTP del frontend...",
+    "start_backend_dev": "Modalità sviluppo: avviare manualmente il servizio backend (python -m uvicorn app:app --reload)",
+    "backend_path": "Percorso del backend: {path}",
+    "backend_exists": "File backend presente: {exists}",
+    "backend_not_found": "Programma backend non esiste:",
+    "start_backend": "Avvio del servizio backend: {path} porta: {port}",
+    "backend_failed": "Avvio del backend fallito:",
+    "backend_exit": "Processo backend terminato, codice: {code}",
+    "stop_backend": "Arresto del servizio backend...",
+    "backend_ready": "Servizio backend pronto",
+    "waiting_backend": "In attesa dell'avvio del backend... ({current}/{total})",
+    "backend_timeout": "Timeout nell'avvio del servizio backend",
+    "icon_not_found": "File icona principale non trovato:"
+  },
+  "window": {
+    "title": "Maestro del trattamento audio"
+  }
+}

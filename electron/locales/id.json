@@ -1,0 +1,26 @@
+{
+  "logs": {
+    "init_failed": "Gagal menginisialisasi file log:",
+    "app_started": "Aplikasi dimulai",
+    "frontend_not_found": "Direktori dist frontend tidak ditemukan:",
+    "frontend_started": "Server HTTP frontend telah dimulai: http://127.0.0.1:{port}",
+    "frontend_path": "Jalur file frontend: {path}",
+    "frontend_failed": "Gagal memulai server HTTP frontend:",
+    "stop_frontend": "Menghentikan server HTTP frontend...",
+    "start_backend_dev": "Mode pengembangan: Harap mulai layanan backend secara manual (python -m uvicorn app:app --reload)",
+    "backend_path": "Jalur backend: {path}",
+    "backend_exists": "File backend ada: {exists}",
+    "backend_not_found": "Program backend tidak ditemukan:",
+    "start_backend": "Mulai layanan backend: {path} port: {port}",
+    "backend_failed": "Gagal memulai backend:",
+    "backend_exit": "Proses backend berhenti, kode: {code}",
+    "stop_backend": "Menghentikan layanan backend...",
+    "backend_ready": "Layanan backend siap",
+    "waiting_backend": "Menunggu startup backend... ({current}/{total})",
+    "backend_timeout": "Waktu startup layanan backend habis",
+    "icon_not_found": "File ikon utama tidak ditemukan:"
+  },
+  "window": {
+    "title": "Master Pengolahan Suara"
+  }
+}

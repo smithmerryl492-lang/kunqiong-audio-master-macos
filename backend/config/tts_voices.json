@@ -1,0 +1,24 @@
+{
+  "chinese": [
+    { "id": "zh-CN-XiaoxiaoNeural", "name": "晓晓", "gender": "女", "style": "温柔甜美" },
+    { "id": "zh-CN-XiaoyiNeural", "name": "晓伊", "gender": "女", "style": "活泼可爱" },
+    { "id": "zh-CN-YunjianNeural", "name": "云健", "gender": "男", "style": "阳光男声" },
+    { "id": "zh-CN-YunxiNeural", "name": "云希", "gender": "男", "style": "温和男声" },
+    { "id": "zh-CN-YunxiaNeural", "name": "云夏", "gender": "男", "style": "少年音" },
+    { "id": "zh-CN-YunyangNeural", "name": "云扬", "gender": "男", "style": "新闻播报" },
+    { "id": "zh-CN-liaoning-XiaobeiNeural", "name": "晓北", "gender": "女", "style": "东北话" },
+    { "id": "zh-CN-shaanxi-XiaoniNeural", "name": "晓妮", "gender": "女", "style": "陕西话" },
+    { "id": "zh-TW-HsiaoChenNeural", "name": "晓臻", "gender": "女", "style": "台湾腔" },
+    { "id": "zh-TW-YunJheNeural", "name": "云哲", "gender": "男", "style": "台湾腔" },
+    { "id": "zh-HK-HiuGaaiNeural", "name": "晓佳", "gender": "女", "style": "粤语" },
+    { "id": "zh-HK-WanLungNeural", "name": "云龙", "gender": "男", "style": "粤语" }
+  ],
+  "english": [
+    { "id": "en-US-JennyNeural", "name": "Jenny", "gender": "女", "style": "美式英语" },
+    { "id": "en-US-GuyNeural", "name": "Guy", "gender": "男", "style": "美式英语" },
+    { "id": "en-US-AriaNeural", "name": "Aria", "gender": "女", "style": "美式英语" },
+    { "id": "en-GB-SoniaNeural", "name": "Sonia", "gender": "女", "style": "英式英语" },
+    { "id": "en-GB-RyanNeural", "name": "Ryan", "gender": "男", "style": "英式英语" }
+  ]
+}
+

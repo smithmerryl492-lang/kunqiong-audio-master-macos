@@ -1,0 +1,26 @@
+{
+  "logs": {
+    "init_failed": "Falló la inicialización del archivo de registros:",
+    "app_started": "Aplicación iniciada",
+    "frontend_not_found": "El directorio dist del frontend no existe:",
+    "frontend_started": "El servidor HTTP del frontend se ha iniciado: http://127.0.0.1:{port}",
+    "frontend_path": "Ruta de los archivos del frontend: {path}",
+    "frontend_failed": "Falló la inicialización del servidor HTTP del frontend:",
+    "stop_frontend": "Deteniendo el servidor HTTP del frontend...",
+    "start_backend_dev": "Modo desarrollo: Inicie manualmente el servicio backend (python -m uvicorn app:app --reload)",
+    "backend_path": "Ruta del backend: {path}",
+    "backend_exists": "El archivo del backend existe: {exists}",
+    "backend_not_found": "El programa backend no existe:",
+    "start_backend": "Iniciando el servicio backend: {path} puerto: {port}",
+    "backend_failed": "Falló la inicialización del backend:",
+    "backend_exit": "El proceso del backend se cerró, código: {code}",
+    "stop_backend": "Deteniendo el servicio backend...",
+    "backend_ready": "El servicio backend está listo",
+    "waiting_backend": "Esperando que el backend se inicie... ({current}/{total})",
+    "backend_timeout": "Tiempo de inicio del servicio backend excedido",
+    "icon_not_found": "El archivo de icono principal no existe:"
+  },
+  "window": {
+    "title": "Maestro de Procesamiento de Audio"
+  }
+}

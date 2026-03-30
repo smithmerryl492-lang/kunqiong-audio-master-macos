@@ -1,0 +1,70 @@
+{
+  "api": {
+    "title": "واجهة API لمحول صوتيات كونغ قونغ الذكاء الاصطناعي",
+    "description": "خدمة الخلفية لمعالجة الصوتيات",
+    "running": "خدمة واجهة API لمحول صوتيات كونغ قونغ الذكاء الاصطناعي تعمل"
+  },
+  "tags": {
+    "convert": "تحويل الصوت",
+    "fs": "نظام الملفات",
+    "cut": "تقسيم الصوت",
+    "video_extract": "استخراج الصوت من الفيديو",
+    "merge": "دمج الصوتيات",
+    "transcribe": "تحويل الصوت إلى نص",
+    "volume": "تعديل مستوى الصوت",
+    "record": "تسجيل الصوت",
+    "compress": "ضغط الصوت",
+    "speed": "تغيير سرعة الصوت",
+    "fade": "الانحسار والانطلاق",
+    "reverse": "عكس الصوت",
+    "denoise": "إزالة الضوضاء",
+    "echo": "الصدى",
+    "silence": "إزالة الصمت",
+    "bgm": "إضافة موسيقى خلفية",
+    "equalizer": "المُوازن",
+    "cover": "إضافة غلاف",
+    "video_replace": "استبدال الصوت في الفيديو",
+    "noise": "إنتاج الضوضاء",
+    "vocal": "استخلاص الصوت البشري والموسيقى",
+    "bgm_library": "مكتبة الموسيقى الخلفية",
+    "video_remove_vocal": "إزالة الصوت البشري من الفيديو",
+    "vocal_enhance": "تحسين الصوت البشري",
+    "tts": "تحويل النص إلى صوت",
+    "effect": "إضافة تأثيرات صوتية",
+    "translate": "الترجمة",
+    "voice": "تغيير الصوت",
+    "analysis": "تحليل الصوتيات الذكية",
+    "tasks": "إدارة المهام"
+  },
+  "errors": {
+    "file_not_found": "الملف غير موجود",
+    "invalid_format": "التنسيق غير صالح",
+    "processing_failed": "فشل المعالجة",
+    "unsupported_format": "تنسيق الإخراج غير مدعوم: {format}",
+    "convert_failed": "فشل التحويل: {error}",
+    "cut_failed": "فشل التقسيم: {error}",
+    "extract_failed": "فشل الاستخراج: {error}",
+    "empty_filename": "اسم الملف لا يمكن أن يكون فارغًا",
+    "disallowed_file_type": "نوع الملف غير مسموح به: {ext}",
+    "file_size_exceeded": "حجم الملف تجاوز الحد المسموح ({size}MB)",
+    "empty_file": "لا يوجد محتوى في الملف",
+    "unsupported_file_format": "تنسيق {type} غير مدعوم: {mime}",
+    "unrecognized_file_format": "تنسيق {type} غير معروف",
+    "field_required": "{field} لا يمكن أن يكون فارغًا",
+    "field_too_long": "طول {field} لا يمكن أن يتجاوز {max} حرفًا",
+    "unsafe_content": "{field} يحتوي على محتوى غير آمن",
+    "unsafe_path": "مسار غير آمن"
+  },
+  "types": {
+    "audio": "صوت",
+    "image": "صورة",
+    "document": "مستند",
+    "text": "نص"
+  },
+  "messages": {
+    "convert_success": "تم التحويل بنجاح",
+    "cut_success": "تم التقسيم بنجاح",
+    "extract_success": "تم الاستخراج بنجاح",
+    "fallback_save_msg": "تم حفظ الملف إلى الدليل المؤقت بسبب قيود الأذونات"
+  }
+}

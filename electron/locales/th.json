@@ -1,0 +1,26 @@
+{
+  "logs": {
+    "init_failed": "การเริ่มต้นไฟล์บันทึกข้อผิดพลาด:",
+    "app_started": "แอปเริ่มทำงาน",
+    "frontend_not_found": "โฟลเดอร์ dist ของฝั่งหน้าไม่มีอยู่:",
+    "frontend_started": "เซิร์ฟเวอร์ HTTP ฝั่งหน้าได้เริ่มทำงานแล้ว: http://127.0.0.1:{port}",
+    "frontend_path": "เส้นทางไฟล์ฝั่งหน้า: {path}",
+    "frontend_failed": "การเริ่มต้นเซิร์ฟเวอร์ HTTP ฝั่งหน้าล้มเหลว:",
+    "stop_frontend": "หยุดเซิร์ฟเวอร์ HTTP ฝั่งหน้า...",
+    "start_backend_dev": "โหมดพัฒนา: โปรดเริ่มบริการฝั่งหลังด้วยตนเอง (python -m uvicorn app:app --reload)",
+    "backend_path": "เส้นทางฝั่งหลัง: {path}",
+    "backend_exists": "ไฟล์ฝั่งหลังมีอยู่: {exists}",
+    "backend_not_found": "โปรแกรมฝั่งหลังไม่มีอยู่:",
+    "start_backend": "เริ่มบริการฝั่งหลัง: {path} พอร์ต: {port}",
+    "backend_failed": "การเริ่มบริการฝั่งหลังล้มเหลว:",
+    "backend_exit": "กระบวนการฝั่งหลังออกจากไป รหัส: {code}",
+    "stop_backend": "หยุดบริการฝั่งหลัง...",
+    "backend_ready": "บริการฝั่งหลังพร้อมใช้งาน",
+    "waiting_backend": "กำลังรอให้ฝั่งหลังเริ่มทำงาน... ({current}/{total})",
+    "backend_timeout": "การเริ่มบริการฝั่งหลังเกินเวลาที่กำหนด",
+    "icon_not_found": "ไฟล์ไอคอนหลักไม่มีอยู่:"
+  },
+  "window": {
+    "title": "ผู้เชี่ยวชาญด้านการประมวลผลเสียง"
+  }
+}

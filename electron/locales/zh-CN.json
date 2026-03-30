@@ -1,0 +1,26 @@
+{
+  "logs": {
+    "init_failed": "初始化日志文件失败:",
+    "app_started": "应用启动",
+    "frontend_not_found": "前端dist目录不存在:",
+    "frontend_started": "前端HTTP服务器已启动: http://127.0.0.1:{port}",
+    "frontend_path": "前端文件路径: {path}",
+    "frontend_failed": "前端HTTP服务器启动失败:",
+    "stop_frontend": "停止前端HTTP服务器...",
+    "start_backend_dev": "开发模式：请手动启动后端服务 (python -m uvicorn app:app --reload)",
+    "backend_path": "后端路径: {path}",
+    "backend_exists": "后端文件存在: {exists}",
+    "backend_not_found": "后端程序不存在:",
+    "start_backend": "启动后端服务: {path} 端口: {port}",
+    "backend_failed": "启动后端失败:",
+    "backend_exit": "后端进程退出，代码: {code}",
+    "stop_backend": "停止后端服务...",
+    "backend_ready": "后端服务已就绪",
+    "waiting_backend": "等待后端启动... ({current}/{total})",
+    "backend_timeout": "后端服务启动超时",
+    "icon_not_found": "主图标文件不存在:"
+  },
+  "window": {
+    "title": "音频处理大师"
+  }
+}

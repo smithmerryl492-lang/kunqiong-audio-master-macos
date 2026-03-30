@@ -1,0 +1,70 @@
+{
+  "api": {
+    "title": "API Bộ Chuyển Đổi Âm Thanh AI Kunqiong",
+    "description": "Dịch vụ backend xử lý âm thanh",
+    "running": "Dịch vụ API Bộ Chuyển Đổi Âm Thanh AI Kunqiong đang chạy"
+  },
+  "tags": {
+    "convert": "Chuyển đổi âm thanh",
+    "fs": "Hệ thống tệp",
+    "cut": "Cắt âm thanh",
+    "video_extract": "Trích xuất âm thanh từ video",
+    "merge": "Ghép nối âm thanh",
+    "transcribe": "Chuyển âm thanh thành văn bản",
+    "volume": "Điều chỉnh âm lượng",
+    "record": "Ghi âm",
+    "compress": "Nén âm thanh",
+    "speed": "Thay đổi tốc độ âm thanh",
+    "fade": "Thêm hiệu ứng mờ dần/mờ dần vào âm thanh",
+    "reverse": "Phát ngược âm thanh",
+    "denoise": "Giảm tiếng ồn trong âm thanh",
+    "echo": "Thêm hiệu ứng vang vọng vào âm thanh",
+    "silence": "Xóa đoạn tĩnh trong âm thanh",
+    "bgm": "Thêm nhạc nền",
+    "equalizer": "Sử dụng bộ cân bằng âm thanh",
+    "cover": "Thêm bìa cho âm thanh",
+    "video_replace": "Thay thế âm thanh trong video",
+    "noise": "Tạo tiếng ồn",
+    "vocal": "Trích xuất nhạc nền từ giọng hát",
+    "bgm_library": "Thư viện nhạc nền",
+    "video_remove_vocal": "Loại bỏ giọng hát khỏi video",
+    "vocal_enhance": "Tăng cường giọng hát",
+    "tts": "Chuyển văn bản thành giọng nói",
+    "effect": "Thêm hiệu ứng âm thanh",
+    "translate": "Dịch thuật",
+    "voice": "Biến đổi giọng nói",
+    "analysis": "Phân tích âm thanh bằng AI",
+    "tasks": "Quản lý tác vụ"
+  },
+  "errors": {
+    "file_not_found": "Không tìm thấy tệp",
+    "invalid_format": "Định dạng không hợp lệ",
+    "processing_failed": "Xử lý thất bại",
+    "unsupported_format": "Định dạng đầu ra không được hỗ trợ: {format}",
+    "convert_failed": "Chuyển đổi thất bại: {error}",
+    "cut_failed": "Cắt thất bại: {error}",
+    "extract_failed": "Trích xuất thất bại: {error}",
+    "empty_filename": "Tên tệp không được để trống",
+    "disallowed_file_type": "Loại tệp không được phép: {ext}",
+    "file_size_exceeded": "Kích thước tệp vượt quá giới hạn ({size}MB)",
+    "empty_file": "Nội dung tệp rỗng",
+    "unsupported_file_format": "Định dạng {type} không được hỗ trợ: {mime}",
+    "unrecognized_file_format": "Không thể nhận diện định dạng {type}",
+    "field_required": "{field} không được để trống",
+    "field_too_long": "{field} không được dài quá {max} ký tự",
+    "unsafe_content": "{field} chứa nội dung không an toàn",
+    "unsafe_path": "Đường dẫn không an toàn"
+  },
+  "types": {
+    "audio": "Âm thanh",
+    "image": "Hình ảnh",
+    "document": "Tài liệu",
+    "text": "Văn bản"
+  },
+  "messages": {
+    "convert_success": "Chuyển đổi thành công",
+    "cut_success": "Cắt thành công",
+    "extract_success": "Trích xuất thành công",
+    "fallback_save_msg": "Do hạn chế quyền truy cập vào thư mục, tệp đã được lưu vào thư mục tạm"
+  }
+}

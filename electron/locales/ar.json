@@ -1,0 +1,26 @@
+{
+  "logs": {
+    "init_failed": "فشل في تهيئة ملف السجل:",
+    "app_started": "تطبيق بدأ",
+    "frontend_not_found": "مجلد dist للواجهة الأمامية غير موجود:",
+    "frontend_started": "خادم HTTP الواجهة الأمامية تم تشغيله: http://127.0.0.1:{port}",
+    "frontend_path": "مسار ملف الواجهة الأمامية: {path}",
+    "frontend_failed": "فشل في تشغيل خادم HTTP الواجهة الأمامية:",
+    "stop_frontend": "إيقاف خادم HTTP الواجهة الأمامية...",
+    "start_backend_dev": "الوضع التجريبي: من فضلك قم بتشغيل خدمة الخلفية يدويًا (python -m uvicorn app:app --reload)",
+    "backend_path": "مسار الخلفية: {path}",
+    "backend_exists": "ملف الخلفية موجود: {exists}",
+    "backend_not_found": "برنامج الخلفية غير موجود:",
+    "start_backend": "تشغيل خدمة الخلفية: {path} المنفذ: {port}",
+    "backend_failed": "فشل في تشغيل الخلفية:",
+    "backend_exit": "عملية الخلفية انتهت، الرمز: {code}",
+    "stop_backend": "إيقاف خدمة الخلفية...",
+    "backend_ready": "خدمة الخلفية جاهزة",
+    "waiting_backend": "انتظار تشغيل الخلفية... ({current}/{total})",
+    "backend_timeout": "وقت تشغيل خدمة الخلفية انتهى",
+    "icon_not_found": "ملف أيقونة التطبيق الرئيسي غير موجود:"
+  },
+  "window": {
+    "title": "سيد معالجة الصوت"
+  }
+}

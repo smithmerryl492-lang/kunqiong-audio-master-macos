@@ -1,0 +1,26 @@
+{
+  "logs": {
+    "init_failed": "लॉग फ़ाइल के प्रारंभ करने में विफल रहा:",
+    "app_started": "एप्लिकेशन सुरू हो गया",
+    "frontend_not_found": "फ्रंटएंड dist निर्देशिका अस्तित्व में नहीं है:",
+    "frontend_started": "फ्रंटएंड HTTP सर्वर सक्रिय हो गया: http://127.0.0.1:{port}",
+    "frontend_path": "फ्रंटएंड फ़ाइल पथ: {path}",
+    "frontend_failed": "फ्रंटएंड HTTP सर्वर सक्रिय करने में विफल रहा:",
+    "stop_frontend": "फ्रंटएंड HTTP सर्वर बंद कर रहा है...",
+    "start_backend_dev": "विकास मोड: कृपया हाथ से पीछे के भाग सेवा शुरू करें (python -m uvicorn app:app --reload)",
+    "backend_path": "बैकएंड पथ: {path}",
+    "backend_exists": "बैकएंड फ़ाइल मौजूद है: {exists}",
+    "backend_not_found": "बैकएंड कार्यक्रम अस्तित्व में नहीं है:",
+    "start_backend": "बैकएंड सेवा शुरू करें: {path} पोर्ट: {port}",
+    "backend_failed": "बैकएंड शुरू करने में विफल रहा:",
+    "backend_exit": "बैकएंड प्रक्रिया बंद हो गई, कोड: {code}",
+    "stop_backend": "बैकएंड सेवा बंद कर रहा है...",
+    "backend_ready": "बैकएंड सेवा तैयार है",
+    "waiting_backend": "बैकएंड सुरू होने का इंतजार कर रहा है ... ({current}/{total})",
+    "backend_timeout": "बैकएंड सेवा शुरू होने में समय सीमा पार हो गई",
+    "icon_not_found": "मुख्य आइकन फ़ाइल अस्तित्व में नहीं है:"
+  },
+  "window": {
+    "title": "ऑडियो संसाधन विशेषज्ञ"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "api": {
+    "title": "API do Conversor de Áudio Kunqiong AI",
+    "description": "Serviço de backend para processamento de áudio",
+    "running": "O serviço API do Conversor de Áudio Kunqiong AI está em execução"
+  },
+  "tags": {
+    "convert": "Conversão de áudio",
+    "fs": "Sistema de arquivos",
+    "cut": "Corte de áudio",
+    "video_extract": "Extração de áudio de vídeo",
+    "merge": "Mistura de áudio",
+    "transcribe": "Transcrição de áudio para texto",
+    "volume": "Ajuste de volume",
+    "record": "Gravação de áudio",
+    "compress": "Compressão de áudio",
+    "speed": "Alteração de velocidade de áudio",
+    "fade": "Fade-in e fade-out",
+    "reverse": "Áudio invertido",
+    "denoise": "Redução de ruído no áudio",
+    "echo": "Efeito de eco",
+    "silence": "Remoção de silêncio",
+    "bgm": "Adição de BGM",
+    "equalizer": "Equalizador",
+    "cover": "Adição de capa",
+    "video_replace": "Substituição de áudio em vídeo",
+    "noise": "Geração de ruído",
+    "vocal": "Extração de acompanhamento vocal",
+    "bgm_library": "Biblioteca de músicas BGM",
+    "video_remove_vocal": "Eliminação de voz em vídeos",
+    "vocal_enhance": "Melhoria da voz",
+    "tts": "Texto para fala",
+    "effect": "Adição de efeitos sonoros",
+    "translate": "Tradução",
+    "voice": "Alteração de voz",
+    "analysis": "Análise de áudio com IA",
+    "tasks": "Gerenciamento de tarefas"
+  },
+  "errors": {
+    "file_not_found": "Arquivo não encontrado",
+    "invalid_format": "Formato inválido",
+    "processing_failed": "Falha no processamento",
+    "unsupported_format": "Formato de saída não suportado: {format}",
+    "convert_failed": "Falha na conversão: {error}",
+    "cut_failed": "Falha no corte: {error}",
+    "extract_failed": "Falha na extração: {error}",
+    "empty_filename": "O nome do arquivo não pode estar vazio",
+    "disallowed_file_type": "Tipo de arquivo não permitido: {ext}",
+    "file_size_exceeded": "O tamanho do arquivo excedeu o limite ({size}MB)",
+    "empty_file": "O conteúdo do arquivo está vazio",
+    "unsupported_file_format": "Formato {type} não suportado: {mime}",
+    "unrecognized_file_format": "Formato {type} não reconhecido",
+    "field_required": "{field} não pode estar vazio",
+    "field_too_long": "{field} não pode ter mais de {max} caracteres",
+    "unsafe_content": "{field} contém conteúdo inseguro",
+    "unsafe_path": "Caminho inseguro"
+  },
+  "types": {
+    "audio": "Áudio",
+    "image": "Imagem",
+    "document": "Documento",
+    "text": "Texto"
+  },
+  "messages": {
+    "convert_success": "Conversão bem-sucedida",
+    "cut_success": "Corte bem-sucedido",
+    "extract_success": "Extração bem-sucedida",
+    "fallback_save_msg": "Devido a restrições de permissão de diretório, o arquivo foi salvo em um diretório temporário"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "api": {
+    "title": "API Pengubah Audio AI Kunqiong",
+    "description": "Perkhidmatan pangkalan data pemprosesan audio",
+    "running": "Perkhidmatan API Pengubah Audio AI Kunqiong sedang berjalan"
+  },
+  "tags": {
+    "convert": "Penukaran Audio",
+    "fs": "Sistem Fail",
+    "cut": "Potongan Audio",
+    "video_extract": "Ekstrak Audio daripada Video",
+    "merge": "Penyambungan Audio",
+    "transcribe": "Terjemahan Audio ke Teks",
+    "volume": "Penyesuaian Kelantangan Audio",
+    "record": "Rakaman Audio",
+    "compress": "Pemampatan Audio",
+    "speed": "Pengubahsuaian Kelajuan Audio",
+    "fade": "Pelembutan dan Pemudaran Audio",
+    "reverse": "Audio Terbalik",
+    "denoise": "Penurunan Bunyi Bising Audio",
+    "echo": "Kesan Gema Audio",
+    "silence": "Penyingkiran Bunyi Senyap",
+    "bgm": "Tambahkan Muzik Latar Belakang",
+    "equalizer": "Penyama Kuasa Audio",
+    "cover": "Tambahkan Sampul Album",
+    "video_replace": "Gantikan Audio dalam Video",
+    "noise": "Jana Bunyi Bising",
+    "vocal": "Penyisihan Suara Vokal dan Muzik Latar Belakang",
+    "bgm_library": "Perpustakaan Muzik Latar Belakang",
+    "video_remove_vocal": "Hapuskan Suara Vokal daripada Video",
+    "vocal_enhance": "Penambahbaikan Suara Vokal",
+    "tts": "Terjemahan Teks ke Audio",
+    "effect": "Tambahkan Kesan Bunyi",
+    "translate": "Terjemahan",
+    "voice": "Ubah Suara",
+    "analysis": "Analisis Audio AI",
+    "tasks": "Pengurusan Tugas"
+  },
+  "errors": {
+    "file_not_found": "Fail tidak ditemui",
+    "invalid_format": "Format tidak sah",
+    "processing_failed": "Pemprosesan gagal",
+    "unsupported_format": "Format output tidak disokong: {format}",
+    "convert_failed": "Penukaran gagal: {error}",
+    "cut_failed": "Potongan gagal: {error}",
+    "extract_failed": "Ekstrak gagal: {error}",
+    "empty_filename": "Nama fail tidak boleh kosong",
+    "disallowed_file_type": "Jenis fail tidak dibenarkan: {ext}",
+    "file_size_exceeded": "Saiz fail melebihi had ({size}MB)",
+    "empty_file": "Kandungan fail kosong",
+    "unsupported_file_format": "Format {type} tidak disokong: {mime}",
+    "unrecognized_file_format": "Format {type} tidak dapat dikenali",
+    "field_required": "{field} tidak boleh kosong",
+    "field_too_long": "{field} tidak boleh melebihi {max} aksara",
+    "unsafe_content": "{field} mengandungi kandungan yang tidak selamat",
+    "unsafe_path": "Laluan yang tidak selamat"
+  },
+  "types": {
+    "audio": "Audio",
+    "image": "Imej",
+    "document": "Dokumen",
+    "text": "Teks"
+  },
+  "messages": {
+    "convert_success": "Penukaran berjaya",
+    "cut_success": "Potongan berjaya",
+    "extract_success": "Ekstrak berjaya",
+    "fallback_save_msg": "Oleh kerana kekangan kebenaran direktori, fail telah disimpan ke direktori sementara"
+  }
+}

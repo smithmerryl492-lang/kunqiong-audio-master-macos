@@ -1,0 +1,70 @@
+{
+  "api": {
+    "title": "昆穹AI音声変換API",
+    "description": "音声処理バックエンドサービス",
+    "running": "昆穹AI音声変換APIサービスが動作中"
+  },
+  "tags": {
+    "convert": "音声変換",
+    "fs": "ファイルシステム",
+    "cut": "音声カット",
+    "video_extract": "動画から音声抽出",
+    "merge": "音声マージ",
+    "transcribe": "音声からテキストへ",
+    "volume": "ボリューム調整",
+    "record": "音声録音",
+    "compress": "音声圧縮",
+    "speed": "音声速度変更",
+    "fade": "フェードイン/フェードアウト",
+    "reverse": "音声逆再生",
+    "denoise": "ノイズ除去",
+    "echo": "エコー",
+    "silence": "静音削除",
+    "bgm": "BGM追加",
+    "equalizer": "イコライザ",
+    "cover": "カバー追加",
+    "video_replace": "動画に音声置き換え",
+    "noise": "ノイズ生成",
+    "vocal": "ボーカル・伴奏分離",
+    "bgm_library": "BGM音楽ライブラリ",
+    "video_remove_vocal": "動画からボーカル除去",
+    "vocal_enhance": "ボーカル強化",
+    "tts": "テキストから音声へ",
+    "effect": "効果追加",
+    "translate": "翻訳",
+    "voice": "ボイスチェンジ",
+    "analysis": "AI音声分析",
+    "tasks": "タスク管理"
+  },
+  "errors": {
+    "file_not_found": "ファイルが見つかりません",
+    "invalid_format": "形式が無効です",
+    "processing_failed": "処理に失敗しました",
+    "unsupported_format": "サポートされていない出力形式: {format}",
+    "convert_failed": "変換に失敗しました: {error}",
+    "cut_failed": "カットに失敗しました: {error}",
+    "extract_failed": "抽出に失敗しました: {error}",
+    "empty_filename": "ファイル名は空にできません",
+    "disallowed_file_type": "許可されていないファイルタイプ: {ext}",
+    "file_size_exceeded": "ファイルサイズが制限を超えています ({size}MB)",
+    "empty_file": "ファイルの内容が空です",
+    "unsupported_file_format": "サポートされていない{type}形式: {mime}",
+    "unrecognized_file_format": "認識できない{type}形式",
+    "field_required": "{field}は空にできません",
+    "field_too_long": "{field}の長さは{max}文字以内にしてください",
+    "unsafe_content": "{field}に不安全なコンテンツが含まれています",
+    "unsafe_path": "不安全なパス"
+  },
+  "types": {
+    "audio": "音声",
+    "image": "画像",
+    "document": "ドキュメント",
+    "text": "テキスト"
+  },
+  "messages": {
+    "convert_success": "変換に成功しました",
+    "cut_success": "カットに成功しました",
+    "extract_success": "抽出に成功しました",
+    "fallback_save_msg": "ディレクトリの権限制限のため、ファイルは一時ディレクトリに保存されました"
+  }
+}

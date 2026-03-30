@@ -1,0 +1,70 @@
+{
+  "api": {
+    "title": "Kunqiong AI Ses Dönüştürücü API",
+    "description": "Ses İşleme Arka Uç Hizmeti",
+    "running": "Kunqiong AI Ses Dönüştürücü API Hizmeti Çalışıyor"
+  },
+  "tags": {
+    "convert": "Ses Dönüştürme",
+    "fs": "Dosya Sistemi",
+    "cut": "Ses Kesme",
+    "video_extract": "Video'dan Ses Çıkarma",
+    "merge": "Ses Birleştirme",
+    "transcribe": "Ses Metin'e Çevirme",
+    "volume": "Ses Seviyesi Ayarı",
+    "record": "Ses Kaydı",
+    "compress": "Ses Sıkıştırma",
+    "speed": "Ses Hızı Değişimi",
+    "fade": "Giriş ve Çıkış Efektleri",
+    "reverse": "Ses Tersine Çevirme",
+    "denoise": "Ses Gürültüsü Azaltma",
+    "echo": "Eko Etkisi",
+    "silence": "Sessizlik Kaldırma",
+    "bgm": "BGM Eklemek",
+    "equalizer": "Ekolayzer",
+    "cover": "Kapak Eklemek",
+    "video_replace": "Video'ya Ses Eklemek",
+    "noise": "Gürültü Üretmek",
+    "vocal": "Vokal ve Müzik Parçası Çıkarma",
+    "bgm_library": "BGM Müzik Kitaplığı",
+    "video_remove_vocal": "Video'dan Vokal Çıkarma",
+    "vocal_enhance": "Vokal Güçlendirme",
+    "tts": "Metin Ses'e Çevirme",
+    "effect": "Ses Efekti Eklemek",
+    "translate": "Çeviri",
+    "voice": "Ses Değiştirme",
+    "analysis": "AI Ses Analizi",
+    "tasks": "Görev Yönetimi"
+  },
+  "errors": {
+    "file_not_found": "Dosya Bulunamadı",
+    "invalid_format": "Format Geçersiz",
+    "processing_failed": "İşleme Başarısız",
+    "unsupported_format": "Desteklenmeyen Çıktı Formatı: {format}",
+    "convert_failed": "Dönüşüm Başarısız: {error}",
+    "cut_failed": "Kesme Başarısız: {error}",
+    "extract_failed": "Çıkarma Başarısız: {error}",
+    "empty_filename": "Dosya Adı Boş Olamaz",
+    "disallowed_file_type": "İzin Verilmeyen Dosya Türü: {ext}",
+    "file_size_exceeded": "Dosya Boyutu Limiti Aşıldı ({size}MB)",
+    "empty_file": "Dosya İçeriği Boş",
+    "unsupported_file_format": "Desteklenmeyen {type} Formatı: {mime}",
+    "unrecognized_file_format": "{type} Formatı Tanınmadı",
+    "field_required": "{field} Boş Olamaz",
+    "field_too_long": "{field} En Fazla {max} Karakter Olabilir",
+    "unsafe_content": "{field} Güvenli Olmayan İçerik İçeeriyor",
+    "unsafe_path": "Güvenli Olmayan Yol"
+  },
+  "types": {
+    "audio": "Ses",
+    "image": "Resim",
+    "document": "Belge",
+    "text": "Metin"
+  },
+  "messages": {
+    "convert_success": "Dönüşüm Başarılı",
+    "cut_success": "Kesme Başarılı",
+    "extract_success": "Çıkarma Başarılı",
+    "fallback_save_msg": "Klasör İzni Sınırlamaları Nedeniyle, Dosya Geçici Klasöre Kaydedildi"
+  }
+}

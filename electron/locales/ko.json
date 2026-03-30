@@ -1,0 +1,26 @@
+{
+  "logs": {
+    "init_failed": "로그 파일 초기화 실패:",
+    "app_started": "앱 시작",
+    "frontend_not_found": "프론트엔드 dist 디렉터리가 존재하지 않습니다:",
+    "frontend_started": "프론트엔드 HTTP 서버가 시작되었습니다: http://127.0.0.1:{port}",
+    "frontend_path": "프론트엔드 파일 경로: {path}",
+    "frontend_failed": "프론트엔드 HTTP 서버 시작에 실패했습니다:",
+    "stop_frontend": "프론트엔드 HTTP 서버를 중지합니다...",
+    "start_backend_dev": "개발 모드: 수동으로 백엔드 서비스를 시작해 주세요 (python -m uvicorn app:app --reload)",
+    "backend_path": "백엔드 경로: {path}",
+    "backend_exists": "백엔드 파일이 존재합니다: {exists}",
+    "backend_not_found": "백엔드 프로그램이 존재하지 않습니다:",
+    "start_backend": "백엔드 서비스를 시작합니다: {path} 포트: {port}",
+    "backend_failed": "백엔드 시작에 실패했습니다:",
+    "backend_exit": "백엔드 프로세스가 종료되었습니다, 코드: {code}",
+    "stop_backend": "백엔드 서비스를 중지합니다...",
+    "backend_ready": "백엔드 서비스가 준비되었습니다",
+    "waiting_backend": "백엔드 시작을 기다립니다... ({current}/{total})",
+    "backend_timeout": "백엔드 서비스 시작 시간 초과",
+    "icon_not_found": "메인 아이콘 파일이 존재하지 않습니다:"
+  },
+  "window": {
+    "title": "오디오 처리 마스터"
+  }
+}

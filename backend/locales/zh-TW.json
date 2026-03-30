@@ -1,0 +1,70 @@
+{
+  "api": {
+    "title": "鯤穹AI音訊轉換器 API",
+    "description": "音訊處理後端服務",
+    "running": "鯤穹AI音訊轉換器 API 服務正在運行中"
+  },
+  "tags": {
+    "convert": "音訊轉換",
+    "fs": "檔案系統",
+    "cut": "音訊剪切",
+    "video_extract": "影片提取音訊",
+    "merge": "音訊合併",
+    "transcribe": "音訊轉文字",
+    "volume": "音量調整",
+    "record": "音訊錄製",
+    "compress": "音訊壓縮",
+    "speed": "音訊變速",
+    "fade": "淡入淡出",
+    "reverse": "音訊倒放",
+    "denoise": "音訊降噪",
+    "echo": "回聲",
+    "silence": "移除靜音",
+    "bgm": "新增BGM",
+    "equalizer": "均衡器",
+    "cover": "新增封面",
+    "video_replace": "影片替換音訊",
+    "noise": "噪音生成",
+    "vocal": "人聲伴奏提取",
+    "bgm_library": "BGM音樂庫",
+    "video_remove_vocal": "影片消除人聲",
+    "vocal_enhance": "人聲增強",
+    "tts": "文字轉語音",
+    "effect": "新增音效",
+    "translate": "翻譯",
+    "voice": "變聲",
+    "analysis": "AI音訊分析",
+    "tasks": "任務管理"
+  },
+  "errors": {
+    "file_not_found": "找不到檔案",
+    "invalid_format": "格式無效",
+    "processing_failed": "處理失敗",
+    "unsupported_format": "不支援的輸出格式: {format}",
+    "convert_failed": "轉換失敗: {error}",
+    "cut_failed": "剪切失敗: {error}",
+    "extract_failed": "提取失敗: {error}",
+    "empty_filename": "檔案名稱不能為空",
+    "disallowed_file_type": "不允許的檔案類型: {ext}",
+    "file_size_exceeded": "檔案大小超過限制 ({size}MB)",
+    "empty_file": "檔案內容為空",
+    "unsupported_file_format": "不支援的{type}格式: {mime}",
+    "unrecognized_file_format": "無法識別的{type}格式",
+    "field_required": "{field}不能為空",
+    "field_too_long": "{field}長度不能超過{max}個字符",
+    "unsafe_content": "{field}包含不安全內容",
+    "unsafe_path": "不安全的路徑"
+  },
+  "types": {
+    "audio": "音訊",
+    "image": "圖片",
+    "document": "文件",
+    "text": "文字"
+  },
+  "messages": {
+    "convert_success": "轉換成功",
+    "cut_success": "剪切成功",
+    "extract_success": "提取成功",
+    "fallback_save_msg": "由於目錄權限限制，檔案已儲存到臨時目錄"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "api": {
+    "title": "API de conversor de audio de Kung Fu",
+    "description": "Servicio de procesamiento de audio",
+    "running": "El servicio API de conversor de audio de Kung Fu está en ejecución"
+  },
+  "tags": {
+    "convert": "Conversión de audio",
+    "fs": "Sistema de archivos",
+    "cut": "Corte de audio",
+    "video_extract": "Extraer audio de video",
+    "merge": "Combinar audio",
+    "transcribe": "Transcripción de audio",
+    "volume": "Ajuste de volumen",
+    "record": "Grabación de audio",
+    "compress": "Compresión de audio",
+    "speed": "Ajuste de velocidad",
+    "fade": "Efecto de entrada y salida",
+    "reverse": "Reproducción inversa",
+    "denoise": "Reducción de ruido",
+    "echo": "Eco",
+    "silence": "Eliminar silencio",
+    "bgm": "Agregar fondo musical",
+    "equalizer": "Ecualizador",
+    "cover": "Agregar portada",
+    "video_replace": "Reemplazar audio en video",
+    "noise": "Generación de ruido",
+    "vocal": "Extracción de voz y acompañamiento",
+    "bgm_library": "Biblioteca de fondos musicales",
+    "video_remove_vocal": "Eliminar voz de video",
+    "vocal_enhance": "Mejora de voz",
+    "tts": "Texto a voz",
+    "effect": "Añadir efectos sonoros",
+    "translate": "Traducir",
+    "voice": "Cambiar voz",
+    "analysis": "Análisis de audio con IA",
+    "tasks": "Gestión de tareas"
+  },
+  "errors": {
+    "file_not_found": "Archivo no encontrado",
+    "invalid_format": "Formato inválido",
+    "processing_failed": "Procesamiento fallido",
+    "unsupported_format": "Formato de salida no compatible: {format}",
+    "convert_failed": "Falló la conversión: {error}",
+    "cut_failed": "Falló el corte: {error}",
+    "extract_failed": "Falló la extracción: {error}",
+    "empty_filename": "El nombre del archivo no puede estar vacío",
+    "disallowed_file_type": "Tipo de archivo no permitido: {ext}",
+    "file_size_exceeded": "El tamaño del archivo excede el límite ({size}MB)",
+    "empty_file": "El contenido del archivo está vacío",
+    "unsupported_file_format": "Formato {type} no compatible: {mime}",
+    "unrecognized_file_format": "Formato {type} no reconocido",
+    "field_required": "{field} no puede estar vacío",
+    "field_too_long": "La longitud de {field} no puede exceder {max} caracteres",
+    "unsafe_content": "{field} contiene contenido inseguro",
+    "unsafe_path": "Ruta insegura"
+  },
+  "types": {
+    "audio": "Audio",
+    "image": "Imagen",
+    "document": "Documento",
+    "text": "Texto"
+  },
+  "messages": {
+    "convert_success": "Conversión exitosa",
+    "cut_success": "Corte exitoso",
+    "extract_success": "Extracción exitosa",
+    "fallback_save_msg": "El archivo se ha guardado en un directorio temporal debido a restricciones de permisos"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "logs": {
+    "init_failed": "Gagal memulakan fail log:",
+    "app_started": "Aplikasi telah bermula",
+    "frontend_not_found": "Direktori dist frontend tidak wujud:",
+    "frontend_started": "Pelayan HTTP frontend telah bermula: http://127.0.0.1:{port}",
+    "frontend_path": "Laluan fail frontend: {path}",
+    "frontend_failed": "Gagal memulakan pelayan HTTP frontend:",
+    "stop_frontend": "Menghentikan pelayan HTTP frontend...",
+    "start_backend_dev": "Mod pembangunan: Sila mulakan perkhidmatan backend secara manual (python -m uvicorn app:app --reload)",
+    "backend_path": "Laluan backend: {path}",
+    "backend_exists": "Fail backend wujud: {exists}",
+    "backend_not_found": "Program backend tidak wujud:",
+    "start_backend": "Memulakan perkhidmatan backend: {path} Port: {port}",
+    "backend_failed": "Gagal memulakan backend:",
+    "backend_exit": "Proses backend telah berhenti, kod: {code}",
+    "stop_backend": "Menghentikan perkhidmatan backend...",
+    "backend_ready": "Perkhidmatan backend telah bersedia",
+    "waiting_backend": "Menunggu backend bermula... ({current}/{total})",
+    "backend_timeout": "Tempoh masa untuk memulakan perkhidmatan backend telah tamat",
+    "icon_not_found": "Fail ikon utama tidak wujud:"
+  },
+  "window": {
+    "title": "Master Pemprosesan Audio"
+  }
+}

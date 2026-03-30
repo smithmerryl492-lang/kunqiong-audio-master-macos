@@ -1,0 +1,26 @@
+{
+  "logs": {
+    "init_failed": "Fehler beim Initialisieren der Protokolldatei:",
+    "app_started": "Anwendung gestartet",
+    "frontend_not_found": "Frontend-Verzeichnis 'dist' nicht gefunden:",
+    "frontend_started": "Frontend-HTTP-Server gestartet: http://127.0.0.1:{port}",
+    "frontend_path": "Pfad der Frontend-Dateien: {path}",
+    "frontend_failed": "Fehler beim Starten des Frontend-HTTP-Servers:",
+    "stop_frontend": "Frontend-HTTP-Server stoppen...",
+    "start_backend_dev": "Entwicklungsmodus: Bitte starten Sie den Backend-Dienst manuell (python -m uvicorn app:app --reload)",
+    "backend_path": "Backend-Pfad: {path}",
+    "backend_exists": "Backend-Datei vorhanden: {exists}",
+    "backend_not_found": "Backend-Programm nicht vorhanden:",
+    "start_backend": "Backend-Dienst starten: {path} Port: {port}",
+    "backend_failed": "Fehler beim Starten des Backend:",
+    "backend_exit": "Backend-Prozess beendet, Code: {code}",
+    "stop_backend": "Backend-Dienst stoppen...",
+    "backend_ready": "Backend-Dienst ist bereit",
+    "waiting_backend": "Warte auf Backend-Start... ({current}/{total})",
+    "backend_timeout": "Backend-Start-Zeitüberschreitung",
+    "icon_not_found": "Haupt-Ikonen-Datei nicht gefunden:"
+  },
+  "window": {
+    "title": "Audioverarbeitungsmaster"
+  }
+}

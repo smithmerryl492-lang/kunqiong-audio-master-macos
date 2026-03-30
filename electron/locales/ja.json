@@ -1,0 +1,26 @@
+{
+  "logs": {
+    "init_failed": "ログファイルの初期化に失敗しました:",
+    "app_started": "アプリケーションが起動しました",
+    "frontend_not_found": "フロントエンドのdistディレクトリが存在しません:",
+    "frontend_started": "フロントエンドHTTPサーバーが起動しました: http://127.0.0.1:{port}",
+    "frontend_path": "フロントエンドファイルのパス: {path}",
+    "frontend_failed": "フロントエンドHTTPサーバーの起動に失敗しました:",
+    "stop_frontend": "フロントエンドHTTPサーバーを停止しています...",
+    "start_backend_dev": "開発モード: 後端サービスを手動で起動してください (python -m uvicorn app:app --reload)",
+    "backend_path": "バックエンドパス: {path}",
+    "backend_exists": "バックエンドファイルが存在します: {exists}",
+    "backend_not_found": "バックエンドプログラムが存在しません:",
+    "start_backend": "バックエンドサービスを起動: {path} ポート: {port}",
+    "backend_failed": "バックエンドの起動に失敗しました:",
+    "backend_exit": "バックエンドプロセスが終了しました、コード: {code}",
+    "stop_backend": "バックエンドサービスを停止しています...",
+    "backend_ready": "バックエンドサービスが準備ができました",
+    "waiting_backend": "バックエンドの起動を待っています... ({current}/{total})",
+    "backend_timeout": "バックエンドサービスの起動がタイムアウトしました",
+    "icon_not_found": "メインアイコンファイルが存在しません:"
+  },
+  "window": {
+    "title": "音声処理マスター"
+  }
+}

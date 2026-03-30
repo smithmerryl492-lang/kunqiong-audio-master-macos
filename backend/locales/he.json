@@ -1,0 +1,70 @@
+{
+  "api": {
+    "title": "מחלקת API של קואן קורן לتحويل שמע",
+    "description": "שירות חישוב שמע",
+    "running": "שירות מחלקת API של קואן קורן לتحويل שמע רץ"
+  },
+  "tags": {
+    "convert": "המרה של שמע",
+    "fs": "מערכת קבצים",
+    "cut": "גיזום שמע",
+    "video_extract": "הפקת שמע מווידאו",
+    "merge": "دمיגת שמע",
+    "transcribe": "המרה של שמע לنصوص",
+    "volume": "הגדרת עוצמה",
+    "record": "רישום שמע",
+    "compress": "צמצום שמע",
+    "speed": "שינוי מהירות",
+    "fade": "החלקה",
+    "reverse": "הפיכת שמע",
+    "denoise": "הסרת רעש",
+    "echo": "אודיו",
+    "silence": "הסרת דממה",
+    "bgm": "הוספת BGM",
+    "equalizer": "מונח שיווי משקל",
+    "cover": "הוספת כריכה",
+    "video_replace": "החלפת שמע בווידאו",
+    "noise": "יצירת רעש",
+    "vocal": "הפרדת קול ומנגינה",
+    "bgm_library": "ספריית מוזיקה BGM",
+    "video_remove_vocal": "إزالة קול מווידאו",
+    "vocal_enhance": "העצמת קול",
+    "tts": "המרה של טקסט לשמע",
+    "effect": "הוספת אפקטים",
+    "translate": "תרגום",
+    "voice": "שינוי קול",
+    "analysis": "ניתוח שמע AI",
+    "tasks": "ניהול משימות"
+  },
+  "errors": {
+    "file_not_found": "קובץ לא נמצא",
+    "invalid_format": "פורמט לא חוקי",
+    "processing_failed": "העיבוד נכשל",
+    "unsupported_format": "פורמט 출력 לא נתמך: {format}",
+    "convert_failed": "ההמרה נכשלה: {error}",
+    "cut_failed": "הגיזום נכשל: {error}",
+    "extract_failed": "ההפקה נכשלה: {error}",
+    "empty_filename": "שם הקובץ לא יכול להיות ריק",
+    "disallowed_file_type": "סוג קובץ לא מותר: {ext}",
+    "file_size_exceeded": "גודל הקובץ עולה על הגבול ({size}MB)",
+    "empty_file": "הקובץ ריק",
+    "unsupported_file_format": "פורמט {type} לא נתמך: {mime}",
+    "unrecognized_file_format": "פורמט {type} לא זוהה",
+    "field_required": "{field} לא יכול להיות ריק",
+    "field_too_long": "אורך {field} לא יכול להשתנות מ-{max} תווים",
+    "unsafe_content": "{field} מכיל תוכן לא בטוח",
+    "unsafe_path": "נתיב לא בטוח"
+  },
+  "types": {
+    "audio": "שמע",
+    "image": "תמונה",
+    "document": "מסמך",
+    "text": "טקסט"
+  },
+  "messages": {
+    "convert_success": "ההמרה הושלמה בהצלחה",
+    "cut_success": "הגיזום הושלם בהצלחה",
+    "extract_success": "ההפקה הושלמה בהצלחה",
+    "fallback_save_msg": "הקובץ נשמר במדיה זמנית בשל הגבלות גישה"
+  }
+}

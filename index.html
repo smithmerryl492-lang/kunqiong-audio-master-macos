@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/kunqiong.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/kunqiong.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/app-icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>音频处理大师</title>
+    <style>
+      body { margin: 0; background: #0a0a14; }
+      #loading { color: white; font-family: sans-serif; padding: 50px; text-align: center; }
+      #error-display { color: #ff6b6b; font-family: monospace; padding: 20px; white-space: pre-wrap; background: #1a1a2e; margin: 20px; border-radius: 8px; display: none; }
+    </style>
+    <script>
+      window.onerror = function(msg, url, line, col, error) {
+        var el = document.getElementById('error-display');
+        if (el) {
+          el.style.display = 'block';
+          el.textContent = '错误: ' + msg + '\n文件: ' + url + '\n行: ' + line + '\n' + (error ? error.stack : '');
+        }
+        return false;
+      };
+      window.addEventListener('unhandledrejection', function(e) {
+        var el = document.getElementById('error-display');
+        if (el) {
+          el.style.display = 'block';
+          el.textContent = 'Promise错误: ' + (e.reason ? (e.reason.message || e.reason) : e);
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div id="loading">正在加载...</div>
+    <div id="error-display"></div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

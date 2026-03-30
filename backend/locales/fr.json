@@ -1,0 +1,70 @@
+{
+  "api": {
+    "title": "API de conversion audio Kungqiong AI",
+    "description": "Service backend de traitement audio",
+    "running": "Le service API de conversion audio Kungqiong AI est en cours d'exécution"
+  },
+  "tags": {
+    "convert": "Conversion audio",
+    "fs": "Système de fichiers",
+    "cut": "Couper audio",
+    "video_extract": "Extraire l'audio d'une vidéo",
+    "merge": "Fusionner audio",
+    "transcribe": "Transcription audio",
+    "volume": "Ajustement du volume",
+    "record": "Enregistrement audio",
+    "compress": "Compression audio",
+    "speed": "Modification de la vitesse audio",
+    "fade": "Atténuation et amplification",
+    "reverse": "Inversion audio",
+    "denoise": "Réduction du bruit",
+    "echo": "Écho",
+    "silence": "Suppression du silence",
+    "bgm": "Ajouter un fond musical",
+    "equalizer": "Égaliseur",
+    "cover": "Ajouter une couverture",
+    "video_replace": "Remplacer l'audio d'une vidéo",
+    "noise": "Génération de bruit",
+    "vocal": "Extraction de voix et accompagnement",
+    "bgm_library": "Bibliothèque de fonds musicaux",
+    "video_remove_vocal": "Supprimer la voix d'une vidéo",
+    "vocal_enhance": "Amélioration de la voix",
+    "tts": "Texte vers parole",
+    "effect": "Ajouter un effet sonore",
+    "translate": "Traduction",
+    "voice": "Modification de voix",
+    "analysis": "Analyse audio IA",
+    "tasks": "Gestion des tâches"
+  },
+  "errors": {
+    "file_not_found": "Fichier non trouvé",
+    "invalid_format": "Format invalide",
+    "processing_failed": "Échec du traitement",
+    "unsupported_format": "Format de sortie non pris en charge : {format}",
+    "convert_failed": "Échec de la conversion : {error}",
+    "cut_failed": "Échec de la découpe : {error}",
+    "extract_failed": "Échec de l'extraction : {error}",
+    "empty_filename": "Le nom du fichier ne peut pas être vide",
+    "disallowed_file_type": "Type de fichier non autorisé : {ext}",
+    "file_size_exceeded": "La taille du fichier dépasse la limite ({size}Mo)",
+    "empty_file": "Le contenu du fichier est vide",
+    "unsupported_file_format": "Format {type} non pris en charge : {mime}",
+    "unrecognized_file_format": "Format {type} non reconnu",
+    "field_required": "{field} ne peut pas être vide",
+    "field_too_long": "{field} ne peut pas dépasser {max} caractères",
+    "unsafe_content": "{field} contient du contenu non sécurisé",
+    "unsafe_path": "Chemin non sécurisé"
+  },
+  "types": {
+    "audio": "Audio",
+    "image": "Image",
+    "document": "Document",
+    "text": "Texte"
+  },
+  "messages": {
+    "convert_success": "Conversion réussie",
+    "cut_success": "Découpe réussie",
+    "extract_success": "Extraction réussie",
+    "fallback_save_msg": "En raison des restrictions de permissions, le fichier a été enregistré dans le répertoire temporaire"
+  }
+}

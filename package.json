@@ -1,0 +1,173 @@
+{
+  "name": "kunqiong-audio-converter",
+  "private": true,
+  "version": "1.0.8",
+  "main": "electron/main.cjs",
+  "scripts": {
+    "dev": "vite",
+    "dev:backend": "cd backend && python run_dev.py",
+    "dev:all": "concurrently \"npm run dev\" \"npm run dev:backend\" \"wait-on http://localhost:5177 && npm run electron:dev\"",
+    "ffmpeg:download": "node scripts/ensure-ffmpeg.cjs",
+    "icon:mac": "node scripts/create-mac-icon.cjs",
+    "build": "node scripts/build.cjs dir",
+    "build:frontend": "vite build",
+    "build:frontend:analyze": "vite build --mode analyze",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "preview": "vite preview",
+    "electron:dev": "electron .",
+    "electron:build": "npm run build:all",
+    "pack": "npm run build",
+    "dist": "npm run build:all",
+    "build:backend": "cd backend && python -m PyInstaller build_backend.spec --clean",
+    "build:all": "npm run ffmpeg:download && node scripts/build.cjs all",
+    "build:installer": "npm run ffmpeg:download && node scripts/build.cjs installer",
+    "build:portable": "npm run ffmpeg:download && node scripts/build.cjs portable",
+    "build:force": "npm run ffmpeg:download && node scripts/build.cjs dir --force",
+    "build:clean": "npm run ffmpeg:download && node scripts/build.cjs dir --clean",
+    "package": "npm run ffmpeg:download && node scripts/simple-package.cjs",
+    "package:installer": "npm run ffmpeg:download && node scripts/build-installer.cjs",
+    "verify": "node scripts/verify-package.js",
+    "clean": "rimraf dist release-final backend/dist backend/build node_modules/.vite",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.468.0",
+    "mime-types": "^3.0.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "concurrently": "^9.2.1",
+    "electron": "^25.9.8",
+    "electron-builder": "^24.13.3",
+    "playwright": "^1.58.2",
+    "postcss": "^8.4.49",
+    "rcedit": "^5.0.2",
+    "rimraf": "^6.1.2",
+    "tailwindcss": "^3.4.17",
+    "terser": "^5.46.0",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.1",
+    "wait-on": "^9.0.3"
+  },
+  "build": {
+    "appId": "com.kunqiong.audio",
+    "productName": "音频处理大师",
+    "directories": {
+      "output": "release-final",
+      "buildResources": "build"
+    },
+    "asar": false,
+    "compression": "normal",
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "build/**/*",
+      "package.json",
+      "音频处理大师.ico",
+      "node_modules/mime-types/**/*",
+      "node_modules/mime-db/**/*"
+    ],
+    "extraResources": [
+      {
+        "from": "backend-dist/",
+        "to": "backend",
+        "filter": [
+          "**/*"
+        ]
+      },
+      {
+        "from": "ffmpeg/",
+        "to": "ffmpeg",
+        "filter": [
+          "**/*"
+        ]
+      },
+      {
+        "from": "音频处理大师.ico",
+        "to": "音频处理大师.ico"
+      },
+      {
+        "from": "updater.exe",
+        "to": "updater.exe"
+      },
+      {
+        "from": "config/",
+        "to": "config",
+        "filter": [
+          "**/*"
+        ]
+      }
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "dir",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "音频处理大师.ico",
+      "signAndEditExecutable": true,
+      "sign": null,
+      "publisherName": "鲲穹AI",
+      "verifyUpdateCodeSignature": false,
+      "requestedExecutionLevel": "asInvoker"
+    },
+    "mac": {
+      "category": "public.app-category.music",
+      "target": [
+        "dmg",
+        "zip",
+        "dir"
+      ],
+      "icon": "build/icon.icns",
+      "identity": null,
+      "artifactName": "${productName}-${version}-${arch}.${ext}",
+      "extendInfo": {
+        "NSMicrophoneUsageDescription": "需要麦克风权限以录制麦克风音频。",
+        "NSScreenCaptureDescription": "需要屏幕录制权限以捕获系统音频。",
+        "NSAudioCaptureUsageDescription": "需要音频捕获权限以录制系统音频。"
+      }
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "音频处理大师",
+      "allowElevation": true,
+      "runAfterFinish": true,
+      "deleteAppDataOnUninstall": false,
+      "perMachine": false,
+      "installerIcon": "音频处理大师.ico",
+      "uninstallerIcon": "音频处理大师.ico",
+      "installerHeaderIcon": "音频处理大师.ico",
+      "displayLanguageSelector": false,
+      "language": "2052"
+    },
+    "portable": {
+      "artifactName": "${productName}-${version}-portable.${ext}"
+    }
+  }
+}

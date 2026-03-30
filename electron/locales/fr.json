@@ -1,0 +1,26 @@
+{
+  "logs": {
+    "init_failed": "Échec de l'initialisation du fichier de journalisation:",
+    "app_started": "Application lancée",
+    "frontend_not_found": "Le répertoire dist du frontend n'existe pas:",
+    "frontend_started": "Le serveur HTTP du frontend a démarré : http://127.0.0.1:{port}",
+    "frontend_path": "Chemin des fichiers du frontend : {path}",
+    "frontend_failed": "Échec du démarrage du serveur HTTP du frontend :",
+    "stop_frontend": "Arrêt du serveur HTTP du frontend...",
+    "start_backend_dev": "Mode développement : veuillez lancer manuellement le service backend (python -m uvicorn app:app --reload)",
+    "backend_path": "Chemin du backend : {path}",
+    "backend_exists": "Fichier backend présent : {exists}",
+    "backend_not_found": "Le programme backend n'existe pas :",
+    "start_backend": "Démarrage du service backend : {path} port : {port}",
+    "backend_failed": "Échec du démarrage du backend :",
+    "backend_exit": "Processus backend arrêté, code : {code}",
+    "stop_backend": "Arrêt du service backend...",
+    "backend_ready": "Le service backend est prêt",
+    "waiting_backend": "En attente du démarrage du backend... ({current}/{total})",
+    "backend_timeout": "Démarrage du service backend en timeout",
+    "icon_not_found": "Le fichier d'icône principal n'existe pas :"
+  },
+  "window": {
+    "title": "Maître du traitement audio"
+  }
+}

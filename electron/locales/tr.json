@@ -1,0 +1,26 @@
+{
+  "logs": {
+    "init_failed": "Günlük dosyası başlatma başarısız:",
+    "app_started": "Uygulama başlatıldı",
+    "frontend_not_found": "Ön uç dist dizini mevcut değil:",
+    "frontend_started": "Ön uç HTTP sunucusu başlatıldı: http://127.0.0.1:{port}",
+    "frontend_path": "Ön uç dosya yolu: {path}",
+    "frontend_failed": "Ön uç HTTP sunucusunun başlatılması başarısız:",
+    "stop_frontend": "Ön uç HTTP sunucusunu durduruyor...",
+    "start_backend_dev": "Geliştirme modu: Lütfen manuel olarak arka uç hizmetini başlatın (python -m uvicorn app:app --reload)",
+    "backend_path": "Arka uç yolu: {path}",
+    "backend_exists": "Arka uç dosyaları mevcut: {exists}",
+    "backend_not_found": "Arka uç programı mevcut değil:",
+    "start_backend": "Arka uç hizmetini başlat: {path} Port: {port}",
+    "backend_failed": "Arka uç başlatma başarısız:",
+    "backend_exit": "Arka uç işlemi çıktı, kod: {code}",
+    "stop_backend": "Arka uç hizmetini durduruyor...",
+    "backend_ready": "Arka uç hizmeti hazır",
+    "waiting_backend": "Arka uç başlatılmasını bekliyor... ({current}/{total})",
+    "backend_timeout": "Arka uç hizmetinin başlatılma süresi doldu",
+    "icon_not_found": "Ana ikon dosyası mevcut değil:"
+  },
+  "window": {
+    "title": "Ses İşleme Ustası"
+  }
+}
