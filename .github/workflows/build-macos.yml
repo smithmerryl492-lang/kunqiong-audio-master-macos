@@ -50,6 +50,6 @@ jobs:
       - name: Upload macOS artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: audio-master-macos
+          name: macos1.0
           path: release-macos
           if-no-files-found: error

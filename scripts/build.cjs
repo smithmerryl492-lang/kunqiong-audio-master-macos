@@ -192,7 +192,7 @@ function buildElectron(mode) {
       packageJson.build.extraResources = (packageJson.build.extraResources || []).filter((entry) => entry.from !== 'updater.exe')
     }
   }, () => {
-    const result = runCommand(`npx electron-builder ${builderFlag()}`, {
+    const result = runCommand(`npx electron-builder ${builderFlag()} --publish never`, {
       env: { CSC_IDENTITY_AUTO_DISCOVERY: 'false' },
     })
     return result.success

@@ -81,7 +81,8 @@ function download(url, destination) {
       if (response.statusCode >= 300 && response.statusCode < 400 && response.headers.location) {
         file.close()
         fs.unlinkSync(destination)
-        resolve(download(response.headers.location, destination))
+        const redirectUrl = new URL(response.headers.location, url).toString()
+        resolve(download(redirectUrl, destination))
         return
       }
 
@@ -216,7 +217,11 @@ async function main() {
   log('Download complete')
 }
 
-main().catch((error) => {
-  console.error(`[ffmpeg] ${error.message}`)
-  process.exit(1)
-})
+main()
+  .then(() => {
+    process.exit(0)
+  })
+  .catch((error) => {
+    console.error(`[ffmpeg] ${error.message}`)
+    process.exit(1)
+  })
